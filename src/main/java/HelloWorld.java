@@ -16,7 +16,7 @@ public class HelloWorld {
 
 		System.out.println("Hello World :3");
 
-		System.out.println("Hallo");
+		System.out.println("Cedric ist ein fischkopf");
 	}
 
 
