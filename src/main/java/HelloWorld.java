@@ -6,6 +6,9 @@
  *  All rights reserved
  */
 
+import Items.Heilungstrank;
+import Items.Trank;
+
 /**
  * @author <a href="mailto:fabian.stetter@epg.com">Fabian Stetter</a>
  */
@@ -17,6 +20,10 @@ public class HelloWorld {
 		System.out.println("Hello World :3");
 
 		System.out.println("Cedric ist ein fischkopf");
+
+		Trank heilung = new Heilungstrank();
+
+		heilung.trankNutzen();
 	}
 
 
