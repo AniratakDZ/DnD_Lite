@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+
+import Maps.Map;
+
 /*  Created on 30.01.2023
  *
  *  Copyright (c) 2023
@@ -14,8 +18,13 @@ import Items.Trank;
  */
 public class HelloWorld {
 
+	public HelloWorld() {
+		new Map(10,10);
+	}
 	public static void main(String[] args) {
 
+		new HelloWorld();
+		
 
 		System.out.println("Hello World :3");
 
