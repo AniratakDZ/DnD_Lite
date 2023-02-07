@@ -6,8 +6,8 @@
  *  All rights reserved
  */
 
-import Items.Heilungstrank;
-import Items.Trank;
+import Items.HealingPotion;
+import Items.Potion;
 
 /**
  * @author <a href="mailto:fabian.stetter@epg.com">Fabian Stetter</a>
@@ -21,7 +21,7 @@ public class HelloWorld {
 
 		System.out.println("Cedric ist ein fischkopf");
 
-		Trank heilung = new Heilungstrank();
+		Potion heilung = new HealingPotion();
 
 		heilung.trankNutzen();
 	}
