@@ -1,12 +1,12 @@
 package Items;
 
-public abstract class Artifact {
+public abstract class Artefakt {
 
     private String name;
     private String art;
 
 
-    public Artifact(){
+    public Artefakt(){
 
 
     }
