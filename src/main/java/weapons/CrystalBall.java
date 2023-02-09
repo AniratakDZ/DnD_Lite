@@ -1,4 +1,4 @@
-package main.weapons;
+package weapons;
 
 public class CrystalBall implements IWeaponBehaviour {
     @Override

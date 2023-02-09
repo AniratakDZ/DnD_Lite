@@ -1,8 +1,6 @@
 package Items;
 
-import characters.Characters;
-
-public abstract class Potion extends Artifact {
+public abstract class Potion extends Artifact{
 
 
 
@@ -16,8 +14,5 @@ public abstract class Potion extends Artifact {
 
     }
 
-    public void trankNutzen(Characters characters){
-
-    }
 
 }

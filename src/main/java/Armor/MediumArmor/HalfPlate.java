@@ -1,6 +1,6 @@
-package main.Armor.MediumArmor;
+package Armor.MediumArmor;
 
-import main.Armor.Armor;
+import Armor.Armor;
 
 public class HalfPlate extends Armor {
 

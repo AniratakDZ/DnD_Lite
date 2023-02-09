@@ -1,4 +1,4 @@
-package main.Armor;
+package Armor;
 
 public abstract class Armor {
 

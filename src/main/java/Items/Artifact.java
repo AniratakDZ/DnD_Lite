@@ -1,18 +1,11 @@
 package Items;
 
-import characters.Characters;
-
-public abstract class Artifact {
+public abstract class Artifact implements UseArtifact {
 
     private String name;
     private String art;
 
     private int duration;
-
-    public Artifact(){
-
-
-    }
 
     public String getName() {
         return name;
@@ -39,7 +32,5 @@ public abstract class Artifact {
     public void setDuration(int duration) {
         this.duration = duration;
     }
-
-    public abstract void use(Characters characters);
 
 }

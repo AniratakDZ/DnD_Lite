@@ -1,6 +1,6 @@
-package main.Armor.Shield;
+package Armor.Shield;
 
-import main.Armor.Armor;
+import Armor.Armor;
 
 public class Shield extends Armor {
 

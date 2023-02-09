@@ -1,11 +1,11 @@
-package weapons.onehanded;
+package weapons.miscellaneous;
 
 import weapons.IWeaponBehaviour;
 import weapons.Weapons;
 
-public class OnehandedAxe extends Weapons implements IWeaponBehaviour {
+public class Quarterstaff extends Weapons implements IWeaponBehaviour {
 
-    public OnehandedAxe(int cost, int damage, int properties, int weight, String name){
+    public Quarterstaff(int cost, int damage, int properties, int weight, String name){
 
         super.setWeapontype(Weapontype.onehandedAxe);
         super.setCost(cost);
@@ -17,6 +17,6 @@ public class OnehandedAxe extends Weapons implements IWeaponBehaviour {
 
     @Override
     public void useWeapon() {
-        System.out.println("You attacked with your Axe, + 10");
+
     }
 }

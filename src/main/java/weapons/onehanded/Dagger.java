@@ -1,7 +1,7 @@
-package main.weapons.onehanded;
+package weapons.onehanded;
 
-import main.weapons.IWeaponBehaviour;
-import main.weapons.Weapons;
+import weapons.IWeaponBehaviour;
+import weapons.Weapons;
 
 public class Dagger extends Weapons implements IWeaponBehaviour {
 

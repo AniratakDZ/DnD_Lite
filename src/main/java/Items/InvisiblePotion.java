@@ -4,7 +4,7 @@ import characters.Characters;
 
 public class InvisiblePotion extends Potion {
 
-        public InvisiblePotion() {
+        public InvisiblePotion(Characters characters) {
 
             setName("Potion of invisibility");
             setDuration(5);
@@ -12,8 +12,8 @@ public class InvisiblePotion extends Potion {
         }
 
     @Override
-    public void use(Characters characters) {
-
+    public void useArtifact(Characters characters) {
+        characters.setInvisible(true);
     }
 }
 

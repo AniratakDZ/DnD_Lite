@@ -1,6 +1,6 @@
-package main.Armor.HeavyArmor;
+package Armor.HeavyArmor;
 
-import main.Armor.Armor;
+import Armor.Armor;
 
 public class ChainMail extends Armor {
 

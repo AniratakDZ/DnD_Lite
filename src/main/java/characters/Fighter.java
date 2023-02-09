@@ -1,7 +1,7 @@
 package characters;
 
-import main.Armor.Armor;
-import main.weapons.IWeaponBehaviour;
+import Armor.Armor;
+import weapons.IWeaponBehaviour;
 
 public class Fighter extends Characters {
 
@@ -10,7 +10,8 @@ public class Fighter extends Characters {
     public Fighter(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
                    IWeaponBehaviour mainhand, IWeaponBehaviour offhand, Armor armor) {
 
-        setStrengh(strengh);
+        super.inventory = new Inventory();
+        super.setStrengh(strengh);
         setDexterity(dexterity);
         setVitality(vitality);
         setIntelligence(intelligence);

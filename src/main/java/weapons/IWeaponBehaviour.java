@@ -1,5 +1,5 @@
-package main.weapons;
+package weapons;
 
 public interface IWeaponBehaviour {
-    public void useWeapon();
+    void useWeapon();
 }

@@ -1,7 +1,7 @@
-package main.weapons.twohanded;
+package weapons.twohanded;
 
-import main.weapons.IWeaponBehaviour;
-import main.weapons.Weapons;
+import weapons.IWeaponBehaviour;
+import weapons.Weapons;
 
 public class TwohandedSword extends Weapons implements IWeaponBehaviour {
 

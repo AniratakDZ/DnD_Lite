@@ -1,19 +1,23 @@
 package characters;
 
-import main.Armor.Armor;
-//import main.Position;
-import main.weapons.IWeaponBehaviour;
+import Items.Artifact;
+import Armor.Armor;
+import Items.UseArtifact;
+import weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
 
 public abstract class Characters {
-
     int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience;
     String name;
-    int leben = 20;
+    int maxLife, currentLife;
     private IWeaponBehaviour mainhand;
     private IWeaponBehaviour offhand;
     private Armor armor;
+    private boolean invisible = false;
+    private UseArtifact useArtifact;
+    Inventory inventory;
+
 //    Position positon;
 
     abstract void attack();
@@ -22,22 +26,39 @@ public abstract class Characters {
 
     void move(){
 
-    };
+    }
 
     void take(){
 
-    };
+    }
 
-    void useArtifact(){
-
-    };
+    void dropItem(String artifactName){
+        inventory.remove(inventory.getArtifactByName(artifactName));
+    }
+    void useArtifact(String artifactName){
+        useArtifact = inventory.getArtifactByName(artifactName);
+        useArtifact.useArtifact(this);
+    }
 
     void addExperience(){
 
-    };
+    }
 
+    // ----------------------------------- Inner Class Inventory -----------------------------------
+    public class Inventory extends ArrayList<Artifact> {
 
+        public Artifact getArtifactByName(String itemName) {
 
+            int tmp = 0;
+
+            for (Artifact ar : this) {
+                if (ar.getName().equals(itemName)) {
+                    return this.get(tmp);
+                }
+            }
+            return null;
+        }
+    }
     // ----------------------------------- Getter & Setter -----------------------------------
 
     public int getStrengh() {
@@ -96,22 +117,13 @@ public abstract class Characters {
         this.name = name;
     }
 
-    public int getLeben() {
-        return leben;
+    public int getMaxLife() {
+        return maxLife;
     }
 
-    public void setLeben(int leben) {
-        this.leben = leben;
+    public void setMaxLife(int maxLife) {
+        this.maxLife = maxLife;
     }
-
-    /*public Position getPositon() {
-        return positon;
-    }
-
-    public void setPositon(Position positon) {
-        this.positon = positon;
-    }*/
-
     public IWeaponBehaviour getMainhand() {
         return mainhand;
     }
@@ -150,5 +162,20 @@ public abstract class Characters {
 
     public void setArmor(Armor armor) {
         this.armor = armor;
+    }
+
+    public int getCurrentLife() {
+        return currentLife;
+    }
+    public void setCurrentLife(int currentLife) {
+        this.currentLife = currentLife;
+    }
+
+    public boolean isInvisible() {
+        return invisible;
+    }
+
+    public void setInvisible(boolean invisible) {
+        this.invisible = invisible;
     }
 }

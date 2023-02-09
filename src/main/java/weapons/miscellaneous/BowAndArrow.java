@@ -1,4 +1,6 @@
-package weapons;
+package weapons.miscellaneous;
+
+import weapons.IWeaponBehaviour;
 
 public class BowAndArrow implements IWeaponBehaviour {
     @Override

@@ -1,6 +1,6 @@
-package main.Armor.LightArmor;
+package Armor.LightArmor;
 
-import main.Armor.Armor;
+import Armor.Armor;
 
 public class StuddedLeatherArmor extends Armor {
 

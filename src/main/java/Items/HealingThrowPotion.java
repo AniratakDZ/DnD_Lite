@@ -13,7 +13,7 @@ public class HealingThrowPotion extends ThrowPotion {
     }
 
     @Override
-    public void use(Characters characters) {
+    public void useArtifact(Characters characters) {
 
     }
 }

@@ -1,8 +1,7 @@
 package characters;
 
-import characters.Characters;
-import main.Armor.Armor;
-import main.weapons.IWeaponBehaviour;
+import Armor.Armor;
+import weapons.IWeaponBehaviour;
 
 public class Rogue extends Characters {
 
@@ -11,6 +10,7 @@ public class Rogue extends Characters {
     public Rogue(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
                  IWeaponBehaviour mainhand, IWeaponBehaviour offhand, Armor armor) {
 
+        super.inventory = new Inventory();
         setStrengh(strengh);
         setDexterity(dexterity);
         setVitality(vitality);
