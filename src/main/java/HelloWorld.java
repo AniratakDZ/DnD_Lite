@@ -7,8 +7,6 @@ import Maps.Map;
  *
  *  All rights reserved
  */
-
-import Items.Heilungstrank;
 import Items.Potion;
 
 /**
@@ -22,15 +20,6 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		new HelloWorld();
-		
-
-		System.out.println("Hello World :3");
-
-		System.out.println("Cedric ist ein fischkopf");
-
-		Potion heilung = new Heilungstrank();
-
-		heilung.trankNutzen();
 	}
 
 
