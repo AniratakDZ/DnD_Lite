@@ -20,12 +20,6 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		new HelloWorld();
-		
-
-		System.out.println("Hello World :3");
-
-		System.out.println("Cedric ist ein fischkopf");
-
 	}
 
 
