@@ -1,20 +1,18 @@
-package characters;
+package main.characters;
 
 import main.Armor.Armor;
-//import main.Position;
+import main.Position;
 import main.weapons.IWeaponBehaviour;
-
-import java.util.ArrayList;
 
 public abstract class Characters {
 
     int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience;
     String name;
-    int leben = 20;
+    int maxLeben, currentLife;
     private IWeaponBehaviour mainhand;
     private IWeaponBehaviour offhand;
     private Armor armor;
-//    Position positon;
+    Position positon;
 
     abstract void attack();
 
@@ -96,21 +94,21 @@ public abstract class Characters {
         this.name = name;
     }
 
-    public int getLeben() {
-        return leben;
+    public int getMaxLeben() {
+        return maxLeben;
     }
 
-    public void setLeben(int leben) {
-        this.leben = leben;
+    public void setMaxLeben(int maxLeben) {
+        this.maxLeben = maxLeben;
     }
 
-    /*public Position getPositon() {
+    public Position getPositon() {
         return positon;
     }
 
     public void setPositon(Position positon) {
         this.positon = positon;
-    }*/
+    }
 
     public IWeaponBehaviour getMainhand() {
         return mainhand;

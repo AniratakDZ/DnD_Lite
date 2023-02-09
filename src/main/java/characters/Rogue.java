@@ -1,6 +1,5 @@
-package characters;
+package main.characters;
 
-import characters.Characters;
 import main.Armor.Armor;
 import main.weapons.IWeaponBehaviour;
 
