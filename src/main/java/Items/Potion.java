@@ -1,8 +1,9 @@
 package Items;
 
+import characters.Characters;
+
 public abstract class Potion extends Artifact {
 
-    private int dauer;
 
 
     public Potion() {
@@ -15,15 +16,7 @@ public abstract class Potion extends Artifact {
 
     }
 
-    public int getDauer() {
-        return dauer;
-    }
-
-    public void setDauer(int dauer) {
-        this.dauer = dauer;
-    }
-
-    public void trankNutzen(){
+    public void trankNutzen(Characters characters){
 
     }
 

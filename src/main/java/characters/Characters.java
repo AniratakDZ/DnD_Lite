@@ -1,7 +1,7 @@
-package main.characters;
+package characters;
 
 import main.Armor.Armor;
-import main.Position;
+//import main.Position;
 import main.weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public abstract class Characters {
     private IWeaponBehaviour mainhand;
     private IWeaponBehaviour offhand;
     private Armor armor;
-    Position positon;
+//    Position positon;
 
     abstract void attack();
 
@@ -104,13 +104,13 @@ public abstract class Characters {
         this.leben = leben;
     }
 
-    public Position getPositon() {
+    /*public Position getPositon() {
         return positon;
     }
 
     public void setPositon(Position positon) {
         this.positon = positon;
-    }
+    }*/
 
     public IWeaponBehaviour getMainhand() {
         return mainhand;

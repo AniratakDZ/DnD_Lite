@@ -1,26 +1,38 @@
 package Items;
 
+import characters.Characters;
+
 public class HealingPotion extends Potion {
 
 
     public HealingPotion(){
 
         setName("Potion of healing");
-        setDauer(5);
 
     }
 
     @Override
-    public void use() {
+    public void use(Characters characters) {
 
-        trankNutzen();
+        trankNutzen(characters);
 
     }
 
-    public void trankNutzen(){
+    public void trankNutzen(Characters character){
 
 
-        System.out.println("Healing Potion heals you by 10 HP");
+        if (character.getLeben() == 20){
+
+            System.out.println("Du kannst dich nicht heilen da dein Charakter volle HP hat!");
+
+        }
+        else if(character.getLeben() < 20 && character.getLeben() > 0)
+        {
+
+            character.setLeben(character.getLeben() + 10);
+            System.out.println("Dein Charakter wurde um 10 HP geheilt!");
+
+        }
 
     }
 

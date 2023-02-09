@@ -1,4 +1,4 @@
-package main.characters;
+package characters;
 
 import main.weapons.IWeaponBehaviour;
 

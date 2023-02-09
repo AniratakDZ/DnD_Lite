@@ -1,5 +1,7 @@
 package Items;
 
+import characters.Characters;
+
 public class HealingThrowPotion extends ThrowPotion {
 
 
@@ -7,7 +9,11 @@ public class HealingThrowPotion extends ThrowPotion {
     public HealingThrowPotion(){
 
         setName("Wurftrank der Heilung");
-        setDauer(3);
+
+    }
+
+    @Override
+    public void use(Characters characters) {
 
     }
 }

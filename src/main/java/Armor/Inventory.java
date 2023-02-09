@@ -1,6 +1,7 @@
-package main.Armor;
+package Armor;
 
-import main.Artifact;
+import Items.Artifact;
+
 import java.util.ArrayList;
 
 public class Inventory extends ArrayList<Artifact>{
