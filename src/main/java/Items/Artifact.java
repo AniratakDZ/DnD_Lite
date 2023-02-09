@@ -29,4 +29,6 @@ public abstract class Artifact {
 
     }
 
+    public abstract void use();
+
 }

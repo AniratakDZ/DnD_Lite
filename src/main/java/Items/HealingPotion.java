@@ -10,7 +10,15 @@ public class HealingPotion extends Potion {
 
     }
 
+    @Override
+    public void use() {
+
+        trankNutzen();
+
+    }
+
     public void trankNutzen(){
+
 
         System.out.println("Healing Potion heals you by 10 HP");
 
