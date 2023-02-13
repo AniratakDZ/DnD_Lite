@@ -1,9 +1,13 @@
-package main.Spells;
+package Spells;
 
-public class HealingHands implements ISpells{
+import characters.Characters;
+
+public class HealingHands implements ISpells {
+
+
 
     @Override
-    public void castSpell() {
+    public void castSpell(Characters character) {
 
     }
 }

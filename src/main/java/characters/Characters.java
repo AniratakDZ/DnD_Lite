@@ -1,14 +1,15 @@
 package characters;
 
-import Items.Artifact;
 import Armor.Armor;
+import Items.Artifact;
 import Items.UseArtifact;
 import weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
 
 public abstract class Characters {
-    int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience;
+
+    int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience, armorClass;
     String name;
     int maxLife, currentLife;
     private IWeaponBehaviour mainhand;
@@ -24,23 +25,24 @@ public abstract class Characters {
 
     abstract void defend();
 
-    void move(){
+    void move() {
 
     }
 
-    void take(){
+    void take() {
 
     }
 
-    void dropItem(String artifactName){
+    void dropItem(String artifactName) {
         inventory.remove(inventory.getArtifactByName(artifactName));
     }
-    void useArtifact(String artifactName){
+
+    void useArtifact(String artifactName) {
         useArtifact = inventory.getArtifactByName(artifactName);
         useArtifact.useArtifact(this);
     }
 
-    void addExperience(){
+    void addExperience() {
 
     }
 
@@ -124,6 +126,7 @@ public abstract class Characters {
     public void setMaxLife(int maxLife) {
         this.maxLife = maxLife;
     }
+
     public IWeaponBehaviour getMainhand() {
         return mainhand;
     }
@@ -167,6 +170,7 @@ public abstract class Characters {
     public int getCurrentLife() {
         return currentLife;
     }
+
     public void setCurrentLife(int currentLife) {
         this.currentLife = currentLife;
     }
@@ -177,5 +181,13 @@ public abstract class Characters {
 
     public void setInvisible(boolean invisible) {
         this.invisible = invisible;
+    }
+
+    public int getArmorClass() {
+        return armorClass;
+    }
+
+    public void setArmorClass(int armorClass) {
+        this.armorClass = armorClass;
     }
 }

@@ -1,9 +1,12 @@
-package main.Spells;
+package Spells;
+
+import characters.Characters;
 
 public class MagicMist implements ISpells{
 
+
     @Override
-    public void castSpell() {
+    public void castSpell(Characters character) {
 
     }
 }

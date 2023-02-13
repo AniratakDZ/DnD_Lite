@@ -1,9 +1,11 @@
-package main.Spells;
+package Spells;
+
+import characters.Characters;
 
 public class MagicShield implements ISpells{
 
     @Override
-    public void castSpell() {
+    public void castSpell(Characters character) {
 
     }
 }

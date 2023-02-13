@@ -1,7 +1,10 @@
-package main.Spells;
+package Spells;
+
+
+import characters.Characters;
 
 public interface ISpells {
 
-    public void castSpell();
+    void castSpell(Characters character);
 
 }

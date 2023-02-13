@@ -9,7 +9,7 @@ import Maps.Map;
  */
 import Items.Potion;
 import characters.Characters;
-import characters.Fighter;
+
 
 /**
  * @author <a href="mailto:fabian.stetter@epg.com">Fabian Stetter</a>
@@ -22,6 +22,5 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 //		new HelloWorld();
-
 	}
 }
