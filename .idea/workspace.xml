@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Die/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/ISpells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/ISpells.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MagicMist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MagicMist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MagicShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MagicShield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/SecondLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/SecondLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Wizzard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Wizzard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,18 +31,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2L2YHijV9hlvvphBoysifWitcrN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/Micha/OneDrive/Projekte Java/Test"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspaces\Java\DnD_Lite\documents\school_docs" />
@@ -112,7 +99,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
