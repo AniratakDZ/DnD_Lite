@@ -1,3 +1,4 @@
+import Die.Dice;
 import Maps.Map;
 
 /*  Created on 30.01.2023
@@ -20,6 +21,7 @@ public class HelloWorld {
 		new Map(10,10);
 	}
 	public static void main(String[] args) {
+
 
 //		new HelloWorld();
 	}
