@@ -2,28 +2,30 @@ package characters;
 
 import Armor.Armor;
 import Items.Artifact;
-import Items.UseArtifact;
+import Items.IUseArtifact;
 import weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
 
 public abstract class Characters {
 
-    int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience, armorClass;
+    int strengh, dexterity, vitality, intelligence, wisdom, charisma, level, experience, armorClass,
+            maxLife, currentLife;
     String name;
-    int maxLife, currentLife;
-    private IWeaponBehaviour mainhand;
-    private IWeaponBehaviour offhand;
-    private Armor armor;
-    private boolean invisible = false;
-    private UseArtifact useArtifact;
+    public boolean invisible = false;
+
+    IWeaponBehaviour mainhand;
+    IWeaponBehaviour offhand;
+    IUseArtifact useArtifact;
+
+    Armor armor;
     Inventory inventory;
 
 //    Position positon;
 
-    abstract void attack();
+    public abstract void attack();
 
-    abstract void defend();
+    public abstract void defend();
 
     void move() {
 

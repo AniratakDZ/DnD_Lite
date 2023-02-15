@@ -15,6 +15,11 @@ public class MageArmor implements ISpells {
 
     @Override
     public void castSpell(Characters character) {
-        character.setArmorClass(armorclass + character.getDexterity());
+
+        if (character.getArmor() == null) {
+            character.setArmorClass(armorclass + character.getDexterity());
+        }else{
+            System.out.println("Dieser Zauber kann nicht auf einen Character angewendet werden, der eine Rüstung trägt");
+        }
     }
 }

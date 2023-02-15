@@ -13,15 +13,17 @@ A bright streak flashes from your pointing finger to a
         spell slot of 4th level or higher, the damage increases by
         1d6 for each slot level above 3rd.*/
 
+import Die.Dice;
 import characters.Characters;
 
 public class Fireball implements ISpells {
 
+    DamageType damageType = DamageType.FIRE;
     // Duration 8 hours // Range = touch
     int castingTime = 1, duration = 0, range = 150, damage = 0;
 
     @Override
     public void castSpell(Characters character) {
-
+        character.setCurrentLife(character.getCurrentLife() - (8 + Dice.rollOnce(6)));
     }
 }

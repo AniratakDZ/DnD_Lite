@@ -2,7 +2,7 @@ package Items;
 
 import characters.Characters;
 
-public interface UseArtifact {
+public interface IUseArtifact {
      void useArtifact(Characters characters);
 
 }
