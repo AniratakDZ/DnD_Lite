@@ -1,6 +1,6 @@
 package Spells;
 
-import characters.Characters;
+import figures.characters.Characters;
 
 public class SecondLife implements ISpells{
 

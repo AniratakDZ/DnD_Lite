@@ -13,8 +13,9 @@ A bright streak flashes from your pointing finger to a
         spell slot of 4th level or higher, the damage increases by
         1d6 for each slot level above 3rd.*/
 
-import Die.Dice;
-import characters.Characters;
+import Mix.Dice;
+import Mix.DamageType;
+import figures.characters.Characters;
 
 public class Fireball implements ISpells {
 

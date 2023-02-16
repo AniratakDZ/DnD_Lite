@@ -1,7 +1,4 @@
-import Die.Dice;
 import Maps.Map;
-import Spells.MagicShield;
-import characters.Wizzard;
 
 /*  Created on 30.01.2023
  *
@@ -24,5 +21,6 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 //		new HelloWorld();
+
     }
 }

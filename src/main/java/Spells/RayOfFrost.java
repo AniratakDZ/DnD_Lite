@@ -1,6 +1,7 @@
 package Spells;
 
-import characters.Characters;
+import Mix.DamageType;
+import figures.characters.Characters;
 
 /*
 A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the

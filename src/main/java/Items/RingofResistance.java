@@ -1,11 +1,12 @@
 package Items;
 
-import characters.Characters;
+import figures.characters.Characters;
 
 public class RingofResistance extends Rings{
 
 
     public RingofResistance() {
+
     }
 
     @Override

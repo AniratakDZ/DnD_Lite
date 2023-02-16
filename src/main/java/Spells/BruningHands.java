@@ -18,11 +18,13 @@ package Spells;
     1d6 for each slot level above 1st
      */
 
-import characters.Characters;
+import Mix.DamageType;
+import figures.characters.Characters;
 
 public class BruningHands implements ISpells {
 
     int castingTime = 1, duration = 0, range = 15, radius = 15;
+    DamageType damageType = DamageType.FIRE;
 
     @Override
     public void castSpell(Characters character) {

@@ -7,7 +7,7 @@ You touch a willing creature who isn’t wearing armor,
         modifier. The spell ends if the target dons armor or if you
         dismiss the spell as an action.*/
 
-import characters.Characters;
+import figures.characters.Characters;
 
 public class MageArmor implements ISpells {
 

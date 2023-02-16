@@ -1,7 +1,6 @@
 package Spells;
 
-
-import characters.Characters;
+import figures.characters.Characters;
 
 public interface ISpells {
     void castSpell(Characters character);

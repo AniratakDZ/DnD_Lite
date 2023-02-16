@@ -18,8 +18,8 @@ This spell sends creatures into a magical slumber. Roll
         spell slot of 2nd level or higher, roll an additional 2d8 for
         each slot level above 1st*/
 
-import Die.Dice;
-import characters.Characters;
+import Mix.Dice;
+import figures.characters.Characters;
 
 public class Sleep implements ISpells {
 

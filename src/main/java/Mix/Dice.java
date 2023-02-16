@@ -1,4 +1,4 @@
-package Die;
+package Mix;
 
 import java.util.ArrayList;
 import java.util.Random;
