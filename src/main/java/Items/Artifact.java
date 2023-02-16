@@ -1,6 +1,6 @@
 package Items;
 
-public abstract class Artifact implements UseArtifact {
+public abstract class Artifact implements IUseArtifact {
 
     private String name;
     private String art;

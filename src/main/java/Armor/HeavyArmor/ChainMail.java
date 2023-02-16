@@ -4,8 +4,6 @@ import Armor.Armor;
 
 public class ChainMail extends Armor {
 
-
-
     public ChainMail() {
 
         super.setArmortype(Armortype.HEAVYARMOR);

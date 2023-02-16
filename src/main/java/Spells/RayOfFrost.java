@@ -11,6 +11,7 @@ A frigid beam of blue-white light streaks toward a creature within range. Make a
 
 public class RayOfFrost implements ISpells{
 
+    DamageType damagetype;
     int castingTime = 1, duration = 0, range = 60;
 
     @Override

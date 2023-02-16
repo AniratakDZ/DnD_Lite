@@ -13,6 +13,7 @@ public abstract class Armor {
 
     int cost, armorClass, strength, weight;
     String name;
+
     /**
      * What effect das the armor have on the movement
      */

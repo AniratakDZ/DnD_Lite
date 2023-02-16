@@ -24,12 +24,12 @@ public class Rogue extends Characters {
     }
 
     @Override
-    void attack() {
+    public void attack() {
 
     }
 
     @Override
-    void defend() {
+    public void defend() {
 
     }
 

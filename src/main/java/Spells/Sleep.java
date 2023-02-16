@@ -18,14 +18,19 @@ This spell sends creatures into a magical slumber. Roll
         spell slot of 2nd level or higher, roll an additional 2d8 for
         each slot level above 1st*/
 
+import Die.Dice;
 import characters.Characters;
 
 public class Sleep implements ISpells {
 
     // Duration 1 Minute
-    int castingTime = 1, duration = 1, range = 90;
+    int castingTime = 1, duration = 1, range = 20, hitPoints;
+
+    public Sleep(){
+        Dice.rollMultipleTimesMultiply(8,5);
+    }
     @Override
     public void castSpell(Characters character) {
-        character.setCurrentLife(10);
+
     }
 }
