@@ -17,14 +17,46 @@ import Mix.Dice;
 import Mix.DamageType;
 import figures.characters.Characters;
 
-public class Fireball implements ISpells {
+public class Fireball extends Spells {
 
-    DamageType damageType = DamageType.FIRE;
-    // Duration 8 hours // Range = touch
-    int castingTime = 1, duration = 0, range = 150, damage = 0;
+    DamageType damageType;
+
+    public Fireball(){
+        damageType = DamageType.FIRE;
+        super.setLevel(0);
+        super.setName("Fireball");
+        super.setCastingTime(1);
+        super.setDuration(0);
+        super.setRange(150);
+        super.setSpellPower(0);
+    }
 
     @Override
     public void castSpell(Characters character) {
-        character.setCurrentLife(character.getCurrentLife() - (8 + Dice.rollOnce(6)));
+
+    }
+
+    public DamageType getDamageType() {
+        return damageType;
+    }
+
+    public int getCastingTime() {
+        return castingTime;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public int getSpellPower() {
+        return spellPower;
+    }
+
+    public String getName() {
+        return name;
     }
 }

@@ -1,6 +1,5 @@
 package figures.characters;
 
-import Spells.ISpells;
 import weapons.IWeaponBehaviour;
 
 public class Wizzard extends Characters {
@@ -19,17 +18,16 @@ public class Wizzard extends Characters {
         setOffhand(offhand);
     }
 
-    @Override
-    public void attack() {
-
-    }
+//    @Override
+//    public void attack() {
+//
+//    }
 
     @Override
     public void defend() {
 
     }
 
-    public void castSpell(ISpells spell, Characters character){
-        spell.castSpell(character);
+    public void castSpell(){
     }
 }

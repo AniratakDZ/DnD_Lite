@@ -9,9 +9,19 @@ You touch a willing creature who isn’t wearing armor,
 
 import figures.characters.Characters;
 
-public class MageArmor implements ISpells {
+public class MageArmor extends Spells {
 
     int castingTime = 8, duration = 1, range = 0, armorclass = 13;
+    String name = "MageArmor";
+
+    public MageArmor(){
+        super.setName("MageArmor");
+        super.setLevel(0);
+        super.setCastingTime(1);
+        super.setDuration(0);
+        super.setRange(15);
+        super.setSpellPower(0);
+    }
 
     @Override
     public void castSpell(Characters character) {

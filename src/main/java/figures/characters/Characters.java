@@ -13,18 +13,14 @@ public abstract class Characters {
             maxLife, currentLife;
     String name;
     public boolean invisible = false;
+
     IWeaponBehaviour mainhand;
     IWeaponBehaviour offhand;
     IUseArtifact useArtifact;
     Armor armor;
     Inventory inventory;
 
-    //    Position positon;
-    public void attack(Characters character) {
-
-    }
-
-    ;
+//    abstract void attack(Characters character);
 
     public abstract void defend();
 
@@ -85,7 +81,6 @@ public abstract class Characters {
             setLevel(18);
         }
     }
-
 
     // ----------------------------------- Inner Class Inventory -----------------------------------
     public class Inventory extends ArrayList<Artifact> {

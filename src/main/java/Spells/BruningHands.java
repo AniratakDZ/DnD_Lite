@@ -21,13 +21,46 @@ package Spells;
 import Mix.DamageType;
 import figures.characters.Characters;
 
-public class BruningHands implements ISpells {
+public class BruningHands extends Spells {
 
-    int castingTime = 1, duration = 0, range = 15, radius = 15;
-    DamageType damageType = DamageType.FIRE;
+    DamageType damageType;
+
+    public BruningHands(){
+        damageType = DamageType.FIRE;
+        super.setLevel(0);
+        super.setName("BruningHands");
+        super.setCastingTime(1);
+        super.setDuration(0);
+        super.setRange(15);
+        super.setSpellPower(0);
+    }
 
     @Override
     public void castSpell(Characters character) {
 
+    }
+
+    public DamageType getDamageType() {
+        return damageType;
+    }
+
+    public int getCastingTime() {
+        return castingTime;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSpellPower() {
+        return spellPower;
     }
 }

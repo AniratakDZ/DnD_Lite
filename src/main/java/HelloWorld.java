@@ -1,4 +1,6 @@
 import Maps.Map;
+import Spells.Fireball;
+import Spells.SpellScroll;
 
 /*  Created on 30.01.2023
  *
@@ -21,6 +23,6 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 //		new HelloWorld();
-
+        SpellScroll spellScroll = new SpellScroll(new Fireball());
     }
 }

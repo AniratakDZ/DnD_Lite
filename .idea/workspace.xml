@@ -5,33 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Cultist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Monsters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spells/SpellScroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spells/Spells.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DamageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mix/DamageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Die/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mix/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/HealingPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/HealingPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/HealingThrowPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/HealingThrowPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/IUseArtifact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/IUseArtifact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/InvisiblePotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/InvisiblePotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofEvasion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/RingofEvasion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofProtection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/RingofProtection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofResistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/RingofResistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/ISpells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/ISpells.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/ISpells.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MagicMist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MagicMist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MagicShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MagicShield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/SecondLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/SecondLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Wizzard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Monsters/Cultist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Cultist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Monsters/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Monsters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/Quarterstaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/Quarterstaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/CrystalBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/offhand/CrystalBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/Spellbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/offhand/Spellbook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676535391416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1676542546470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676542546470</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +153,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />

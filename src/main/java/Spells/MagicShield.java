@@ -1,10 +1,17 @@
 package Spells;
 
+import Mix.DamageType;
 import figures.characters.Characters;
 
-public class MagicShield implements ISpells {
+public class MagicShield extends Spells {
 
-    static int castingTime = 1, duration = 0, range = 0, armorclass = 5;
+    int armorClass;
+
+    public MagicShield(){
+        super.setName("MagicShield");
+        super.setLevel(0);
+        armorClass = 5;
+    }
 
     /**
      *  An invisible barrier of magical force appears and protects
@@ -14,6 +21,6 @@ public class MagicShield implements ISpells {
      * @param character that is the target of the spell
      */
     public void castSpell(Characters character) {
-        character.setArmorClass(character.getArmorClass() + armorclass);
+        character.setArmorClass(character.getArmorClass() + armorClass);
     }
 }

@@ -23,10 +23,10 @@ public class Rogue extends Characters {
         setArmor(armor);
     }
 
-    @Override
-    public void attack() {
-
-    }
+//    @Override
+//    public void attack() {
+//
+//    }
 
     @Override
     public void defend() {

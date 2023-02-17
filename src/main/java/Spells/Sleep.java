@@ -18,19 +18,29 @@ This spell sends creatures into a magical slumber. Roll
         spell slot of 2nd level or higher, roll an additional 2d8 for
         each slot level above 1st*/
 
+import Mix.DamageType;
 import Mix.Dice;
 import figures.characters.Characters;
 
-public class Sleep implements ISpells {
+public class Sleep extends Spells{
 
     // Duration 1 Minute
-    int castingTime = 1, duration = 1, range = 20, hitPoints;
+    int castingTime = 1, duration = 1, range = 20, SpellPower;
+    String name = "Sleep";
+
+    DamageType damageType;
 
     public Sleep(){
-        Dice.rollMultipleTimesMultiply(8,5);
+        damageType = DamageType.FIRE;
+        super.setName("Sleep");
+        super.setLevel(0);
+        super.setCastingTime(1);
+        super.setDuration(1);
+        super.setRange(20);
+        super.setSpellPower(0);
     }
+
     @Override
     public void castSpell(Characters character) {
-
     }
 }

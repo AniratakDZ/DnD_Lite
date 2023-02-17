@@ -24,10 +24,10 @@ public class Fighter extends Characters {
 
     }
 
-    @Override
-    public void attack() {
-
-    }
+//    @Override
+//    public void attack() {
+//
+//    }
 
     @Override
     public void defend() {
