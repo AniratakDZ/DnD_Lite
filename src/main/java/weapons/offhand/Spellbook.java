@@ -14,7 +14,7 @@ import java.lang.reflect.Array;
 
 public class Spellbook implements IWeaponBehaviour {
 
-    Spells spelll;
+    Spells spell;
     Spells[] spellbookContent = new Spells[20];
 
     /** Ties to put a spell from a spell scroll to a spellbook

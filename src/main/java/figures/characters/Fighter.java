@@ -33,4 +33,9 @@ public class Fighter extends Characters {
     public void defend() {
 
     }
+
+    @Override
+    void move() {
+
+    }
 }

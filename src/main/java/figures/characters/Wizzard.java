@@ -28,6 +28,11 @@ public class Wizzard extends Characters {
 
     }
 
+    @Override
+    void move() {
+
+    }
+
     public void castSpell(){
     }
 }

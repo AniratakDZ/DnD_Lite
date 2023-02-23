@@ -24,9 +24,7 @@ public abstract class Characters {
 
     public abstract void defend();
 
-    void move() {
-
-    }
+    abstract void move();
 
     void take(Artifact artifact) {
         inventory.add(artifact);
@@ -41,46 +39,46 @@ public abstract class Characters {
         useArtifact.useArtifact(this);
     }
 
-    void addExperience(int experience) {
-
-        this.experience = +experience;
-
-        if (this.experience >= 300 && this.experience < 900) {
-            setLevel(2);
-        } else if (this.experience >= 900 && this.experience < 2700) {
-            setLevel(3);
-        } else if (this.experience >= 6500 && this.experience < 14000) {
-            setLevel(4);
-        } else if (this.experience >= 14000 && this.experience < 23000) {
-            setLevel(5);
-        } else if (this.experience >= 23000 && this.experience < 34000) {
-            setLevel(6);
-        } else if (this.experience >= 34000 && this.experience < 48000) {
-            setLevel(7);
-        } else if (this.experience >= 48000 && this.experience < 64000) {
-            setLevel(8);
-        } else if (this.experience >= 64000 && this.experience < 85000) {
-            setLevel(9);
-        } else if (this.experience >= 85000 && this.experience < 100000) {
-            setLevel(10);
-        } else if (this.experience >= 100000 && this.experience < 120000) {
-            setLevel(11);
-        } else if (this.experience >= 120000 && this.experience < 140000) {
-            setLevel(12);
-        } else if (this.experience >= 140000 && this.experience < 165000) {
-            setLevel(13);
-        } else if (this.experience >= 165000 && this.experience < 190000) {
-            setLevel(14);
-        } else if (this.experience >= 195000 && this.experience < 225000) {
-            setLevel(15);
-        } else if (this.experience >= 225000 && this.experience < 265000) {
-            setLevel(16);
-        }else if (this.experience >= 265000 && this.experience < 305000) {
-            setLevel(17);
-        }else if (this.experience >= 305000 && this.experience < 355000) {
-            setLevel(18);
-        }
-    }
+//    void addExperience(int experience) {
+//
+//        this.experience = +experience;
+//
+//        if (this.experience >= 300 && this.experience < 900) {
+//            setLevel(2);
+//        } else if (this.experience >= 900 && this.experience < 2700) {
+//            setLevel(3);
+//        } else if (this.experience >= 6500 && this.experience < 14000) {
+//            setLevel(4);
+//        } else if (this.experience >= 14000 && this.experience < 23000) {
+//            setLevel(5);
+//        } else if (this.experience >= 23000 && this.experience < 34000) {
+//            setLevel(6);
+//        } else if (this.experience >= 34000 && this.experience < 48000) {
+//            setLevel(7);
+//        } else if (this.experience >= 48000 && this.experience < 64000) {
+//            setLevel(8);
+//        } else if (this.experience >= 64000 && this.experience < 85000) {
+//            setLevel(9);
+//        } else if (this.experience >= 85000 && this.experience < 100000) {
+//            setLevel(10);
+//        } else if (this.experience >= 100000 && this.experience < 120000) {
+//            setLevel(11);
+//        } else if (this.experience >= 120000 && this.experience < 140000) {
+//            setLevel(12);
+//        } else if (this.experience >= 140000 && this.experience < 165000) {
+//            setLevel(13);
+//        } else if (this.experience >= 165000 && this.experience < 190000) {
+//            setLevel(14);
+//        } else if (this.experience >= 195000 && this.experience < 225000) {
+//            setLevel(15);
+//        } else if (this.experience >= 225000 && this.experience < 265000) {
+//            setLevel(16);
+//        }else if (this.experience >= 265000 && this.experience < 305000) {
+//            setLevel(17);
+//        }else if (this.experience >= 305000 && this.experience < 355000) {
+//            setLevel(18);
+//        }
+//    }
 
     // ----------------------------------- Inner Class Inventory -----------------------------------
     public class Inventory extends ArrayList<Artifact> {

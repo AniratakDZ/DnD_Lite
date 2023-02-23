@@ -34,6 +34,11 @@ public class Rogue extends Characters {
     }
 
     @Override
+    void move() {
+
+    }
+
+    @Override
     public void setArmor(Armor armor) {
         if(armor.getArmortype().equals(armorType)){
             super.setArmor(armor);

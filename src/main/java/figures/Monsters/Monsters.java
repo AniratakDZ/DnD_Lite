@@ -4,10 +4,9 @@ public abstract class Monsters {
 
     int strengh, dexterity, constitution, intelligence, wisdom, charisma, level, experience, armorClass,
             maxLife, currentLife, speed;
+    String name;
 
-    void move() {
-
-    }
+    abstract void move();
 
     abstract void attack();
 
@@ -105,5 +104,13 @@ public abstract class Monsters {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
