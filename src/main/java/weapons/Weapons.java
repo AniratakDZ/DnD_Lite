@@ -3,12 +3,7 @@ package weapons;
 public abstract class Weapons {
 
     public enum Weapontype {
-        onehandedAxe,
-        onehandedSword,
-        twohandedAxe,
-        twohandedSword,
-        offhand,
-        staff
+        ONEHANDED_AXE, ONEHANDED_SWORD, TWOHANDED_AXE, TWOHANDED_SWORD, OFFHAND, STAFF, ONEHANDED_RANGE, TWOHANDED_RANGE, UNARMED
     }
 
     Weapontype weapontype;
@@ -62,4 +57,6 @@ public abstract class Weapons {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

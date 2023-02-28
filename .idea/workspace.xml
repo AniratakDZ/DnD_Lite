@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Skeleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Monsters/Cultist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Cultist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Monsters/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Monsters/Monsters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Armor/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/BowAndArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/range/ShortBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/Quarterstaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/Quarterstaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/range/ShortBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/range/ShortBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/CrystalBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/offhand/CrystalBall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/Spellbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/offhand/Spellbook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/OnehandedAxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/OnehandedSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/TwohandedAxe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/TwohandedSword.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

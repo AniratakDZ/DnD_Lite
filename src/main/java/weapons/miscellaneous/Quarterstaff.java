@@ -7,7 +7,7 @@ public class Quarterstaff extends Weapons implements IWeaponBehaviour {
 
     public Quarterstaff(int cost, int damage, int properties, int weight, String name){
 
-        super.setWeapontype(Weapontype.staff);
+        super.setWeapontype(Weapontype.STAFF);
         super.setCost(cost);
         super.setDamage(damage);
         super.setProperties(properties);

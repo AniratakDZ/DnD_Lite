@@ -5,8 +5,6 @@ import weapons.IWeaponBehaviour;
 
 public class Fighter extends Characters {
 
-
-
     public Fighter(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
                    IWeaponBehaviour mainhand, IWeaponBehaviour offhand, Armor armor) {
 

@@ -13,7 +13,6 @@ public abstract class Characters {
             maxLife, currentLife;
     String name;
     public boolean invisible = false;
-
     IWeaponBehaviour mainhand;
     IWeaponBehaviour offhand;
     IUseArtifact useArtifact;

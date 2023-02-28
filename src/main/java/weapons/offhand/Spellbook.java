@@ -17,15 +17,15 @@ public class Spellbook implements IWeaponBehaviour {
     Spells spell;
     Spells[] spellbookContent = new Spells[20];
 
-    /** Ties to put a spell from a spell scroll to a spellbook
+    /** Ties to put a spell from a spell scroll to a spellbook.
      *
      * @param spell The spell you want to put in your  spellbook.
      */
     public void createSpellScroll(Spells spell){
 
-        if(Dice.rollOnce(20) >= 10 + spell.getLevel()){
-
-        }
+//        if(Dice.rollOnce(20) >= 10 + spell.getLevel()){
+//
+//        }
     }
 
     @Override
