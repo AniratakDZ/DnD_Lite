@@ -1,4 +1,4 @@
-package weapons.miscellaneous.range;
+package weapons.range;
 
 import Mix.Dice;
 import weapons.IWeaponBehaviour;
@@ -10,7 +10,7 @@ public class ShortBow extends Weapons implements IWeaponBehaviour {
     public ShortBow(){
         super.setWeapontype(Weapontype.TWOHANDED_RANGE);
         super.setCost(25);
-        super.setDamage(Dice.rollOnce(6));
+        super.setDamage(Dice.rollDiceInt(1,6));
         super.setWeight(2);
     }
     @Override

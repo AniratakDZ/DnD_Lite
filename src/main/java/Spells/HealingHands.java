@@ -1,6 +1,7 @@
 package Spells;
 
 import Mix.DamageType;
+import Mix.Dice;
 import figures.characters.Characters;
 
 public class HealingHands extends Spells {
@@ -11,7 +12,7 @@ public class HealingHands extends Spells {
         super.setCastingTime(1);
         super.setDuration(0);
         super.setRange(15);
-        super.setSpellPower(0);
+        super.setSpellPower(Dice.rollDiceInt(1,0));
     }
 
     @Override

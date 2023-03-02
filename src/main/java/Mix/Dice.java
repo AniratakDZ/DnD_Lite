@@ -9,33 +9,11 @@ public class Dice {
     static Random random = new Random();
 
     /**
-     * @param die // Die type example: d4, d6 etc
-     * @return Returns the rolled value as an Integer
-     */
-    public static int rollOnce(int die) {
-        return 1 + random.nextInt(die);
-    }
-
-    /**
-     * @param die    //Die type
-     * @param number // Number of times you want to roll the die
-     * @return Returns an Integer Arraylist with all values that have been rolled
-     */
-    public static ArrayList<Integer> rollMultipleTimes(int die, int number) {
-
-        for (int x = 0; x < number; x++) {
-            numberList.add(1 + random.nextInt(die));
-        }
-        return numberList;
-    }
-
-    /**
-     *
      * @param die    //Die type
      * @param number // Number of times you want to roll the die
      * @return Returns an int value, that represents the sum of all rolls
      */
-    public static int rollMultipleTimesMultiply(int die, int number) {
+    public static int rollDiceInt(int number, int die) {
 
         int value = 0;
 
@@ -43,5 +21,20 @@ public class Dice {
             value += random.nextInt(die);
         }
         return value;
+    }
+
+    /**
+     * @param die    //Die type
+     * @param number // Number of times you want to roll the die
+     * @return Returns an int Array, that represents the sum of all rolls
+     */
+    public static int[] rollDiceArray(int number, int die) {
+
+        int[] rolls = new int[die];
+
+        for (int x = 0; x < number; x++) {
+            rolls[x] += random.nextInt(die);
+        }
+        return rolls;
     }
 }

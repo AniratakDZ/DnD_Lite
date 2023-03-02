@@ -10,7 +10,7 @@ public class Dagger extends Weapons implements IWeaponBehaviour {
 
         super.setWeapontype(Weapontype.ONEHANDED_AXE);
         super.setCost(2);
-        super.setDamage(Dice.rollOnce(4));
+        super.setDamage(Dice.rollDiceInt(1,4));
         super.setWeight(1);
         super.setName("Dagger");
     }

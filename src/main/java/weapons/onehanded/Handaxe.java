@@ -10,7 +10,7 @@ public class Handaxe extends Weapons implements IWeaponBehaviour {
 
         super.setWeapontype(Weapontype.ONEHANDED_AXE);
         super.setCost(5);
-        super.setDamage(Dice.rollOnce(6));
+        super.setDamage(Dice.rollDiceInt(1,6));
         super.setWeight(2);
         super.setName("Handaxe");
     }
