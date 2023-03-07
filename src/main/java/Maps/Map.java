@@ -3,6 +3,11 @@ package Maps;
 import javax.swing.GroupLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import Maps.MapDoor.DoorType;
+import Maps.MapKachel.WayType;
+import Maps.*;
+
 import java.awt.*;
 
 public class Map extends JFrame{
@@ -12,14 +17,22 @@ public class Map extends JFrame{
         GridLayout layout = new GridLayout();
         layout.setColumns(10);
         layout.setRows(10);
-        layout.setHgap(15);
-        layout.setVgap(15);
         mainPanel.setLayout(layout);
         add(mainPanel);
         setBounds(100, 100, 500, 500);
-        
-        for (int i = 0; i < 100; i++) {
-            mainPanel.add(new MapWeg());
+        for(int x = 0; x < 10; x++) {
+            for (int y = 0; y < 10; y++) {
+                WayType type = WayType.values()[((int)((Math.random() * 3)))];
+                if(type == WayType.DOOR){
+                    int doorType = (int)(Math.random() * DoorType.values().length - 1);
+                    mainPanel.add(MapDoor.getMapDoor(DoorType.values()[doorType], new Position(x, y)));
+                }
+                else if(type == WayType.WAY)
+                    mainPanel.add(new MapWeg(new Position(x,y)));
+                else
+                    mainPanel.add(new MapWand(new Position(x,y)));
+                
+            }
         }
         setVisible(true);
     }

@@ -1,1 +1,14 @@
 /target/
+*.class
+src/main/java/Maps/Position.java
+*.class
+target/classes/Items/Artefakt.class
+target/classes/Items/Trank.class
+target/classes/Maps/Map.class
+target/classes/Maps/MapKachel.class
+target/classes/Maps/MapWand.class
+target/classes/Maps/MapWeg.class
+target/classes/Items/Artefakt.class
+target/classes/Items/Trank.class
+*.class
+target/classes/Items/Artefakt.class
