@@ -1,6 +1,6 @@
 package Items;
 
-import characters.Characters;
+import figures.characters.Characters;
 
 public interface IUseArtifact {
      void useArtifact(Characters characters);

@@ -1,18 +1,18 @@
 package weapons.onehanded;
 
+import Mix.Dice;
 import weapons.IWeaponBehaviour;
 import weapons.Weapons;
 
 public class Dagger extends Weapons implements IWeaponBehaviour {
 
-    public Dagger(int cost, int damage, int properties, int weight, String name){
+    public Dagger(){
 
-        super.setWeapontype(Weapontype.onehandedAxe);
-        super.setCost(cost);
-        super.setDamage(damage);
-        super.setProperties(properties);
-        super.setWeight(weight);
-        super.setName(name);
+        super.setWeapontype(Weapontype.ONEHANDED_AXE);
+        super.setCost(2);
+        super.setDamage(Dice.rollDiceInt(1,4));
+        super.setWeight(1);
+        super.setName("Dagger");
     }
 
     @Override
@@ -20,7 +20,4 @@ public class Dagger extends Weapons implements IWeaponBehaviour {
         System.out.println("You attacked with your Knife, + 7");
     }
 
-    public void strike() {
-        System.out.println("Stab the target!");
-    }
 }

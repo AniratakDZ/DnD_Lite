@@ -6,7 +6,8 @@ public abstract class Armor {
         LIGHTARMOR,
         MEDIUMARMOR,
         HEAVYARMOR,
-        SHIELD
+        SHIELD,
+        NOARMOR
     }
 
     Armortype armortype;

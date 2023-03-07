@@ -7,7 +7,7 @@ public class CrystalBall extends Weapons implements IWeaponBehaviour {
 
     public CrystalBall(int cost, int damage, int properties, int weight, String name) {
 
-        super.setWeapontype(Weapontype.onehandedAxe);
+        super.setWeapontype(Weapontype.OFFHAND);
         super.setCost(cost);
         super.setDamage(damage);
         super.setProperties(properties);

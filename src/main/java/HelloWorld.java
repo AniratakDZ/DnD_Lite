@@ -1,7 +1,8 @@
-import Die.Dice;
 import Maps.Map;
-import Spells.MagicShield;
-import characters.Wizzard;
+import Spells.BruningHands;
+import Spells.Fireball;
+import Spells.SpellScroll;
+import figures.characters.Wizzard;
 
 /*  Created on 30.01.2023
  *
@@ -16,13 +17,14 @@ import characters.Wizzard;
  */
 public class HelloWorld {
 
-    public HelloWorld() {
-        new Map(10, 10);
-    }
+//    public HelloWorld() {
+//        new Map(10, 10);
+//    }
 
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
 
     public static void main(String[] args) {
 //		new HelloWorld();
+
     }
 }

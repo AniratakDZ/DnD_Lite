@@ -1,4 +1,4 @@
-package characters;
+package figures.characters;
 
 import Armor.Armor;
 import Items.Artifact;
@@ -19,32 +19,18 @@ public abstract class Characters {
     Armor armor;
     Inventory inventory;
 
-    //    Position positon;
-    public void attack(Characters character) {
-
-    }
-
-    ;
+//    abstract void attack(Characters character);
 
     public abstract void defend();
 
-    void move() {
-
-    }
+    abstract void move();
 
     void take(Artifact artifact) {
         inventory.add(artifact);
-        if(artifact.getName() == "RingofProtection")
-        {
-
-            armorClass += 1;
-
-        }
     }
 
     void dropItem(String artifactName) {
         inventory.remove(inventory.getArtifactByName(artifactName));
-
     }
 
     void useArtifact(String artifactName) {
@@ -52,41 +38,46 @@ public abstract class Characters {
         useArtifact.useArtifact(this);
     }
 
-    void addExperience(int experience) {
-
-        this.experience =+ experience;
-
-        if(this.experience >= 300 && this.experience < 900) {
-            setLevel(2);
-        } else if (this.experience >= 900 && this.experience < 2700) {
-
-        } else if (this.experience >= 6500 && this.experience < 14000) {
-
-        } else if (this.experience >= 14000 && this.experience < 23000) {
-
-        }
-
-        switch (this.experience) {
-            case 6500 -> setLevel(5);
-            case 14000 -> setLevel(6);
-            case 23000 -> setLevel(7);
-            case 34000 -> setLevel(8);
-            case 48000 -> setLevel(9);
-            case 64000 -> setLevel(10);
-            case 85000 -> setLevel(11);
-            case 100000 -> setLevel(12);
-            case 120000 -> setLevel(13);
-            case 140000 -> setLevel(14);
-            case 165000 -> setLevel(15);
-            case 195000 -> setLevel(16);
-            case 225000 -> setLevel(17);
-            case 265000 -> setLevel(18);
-            case 305000 -> setLevel(19);
-            case 355000 -> setLevel(20);
-
-        }
-    }
-
+//    void addExperience(int experience) {
+//
+//        this.experience = +experience;
+//
+//        if (this.experience >= 300 && this.experience < 900) {
+//            setLevel(2);
+//        } else if (this.experience >= 900 && this.experience < 2700) {
+//            setLevel(3);
+//        } else if (this.experience >= 6500 && this.experience < 14000) {
+//            setLevel(4);
+//        } else if (this.experience >= 14000 && this.experience < 23000) {
+//            setLevel(5);
+//        } else if (this.experience >= 23000 && this.experience < 34000) {
+//            setLevel(6);
+//        } else if (this.experience >= 34000 && this.experience < 48000) {
+//            setLevel(7);
+//        } else if (this.experience >= 48000 && this.experience < 64000) {
+//            setLevel(8);
+//        } else if (this.experience >= 64000 && this.experience < 85000) {
+//            setLevel(9);
+//        } else if (this.experience >= 85000 && this.experience < 100000) {
+//            setLevel(10);
+//        } else if (this.experience >= 100000 && this.experience < 120000) {
+//            setLevel(11);
+//        } else if (this.experience >= 120000 && this.experience < 140000) {
+//            setLevel(12);
+//        } else if (this.experience >= 140000 && this.experience < 165000) {
+//            setLevel(13);
+//        } else if (this.experience >= 165000 && this.experience < 190000) {
+//            setLevel(14);
+//        } else if (this.experience >= 195000 && this.experience < 225000) {
+//            setLevel(15);
+//        } else if (this.experience >= 225000 && this.experience < 265000) {
+//            setLevel(16);
+//        }else if (this.experience >= 265000 && this.experience < 305000) {
+//            setLevel(17);
+//        }else if (this.experience >= 305000 && this.experience < 355000) {
+//            setLevel(18);
+//        }
+//    }
 
     // ----------------------------------- Inner Class Inventory -----------------------------------
     public class Inventory extends ArrayList<Artifact> {
