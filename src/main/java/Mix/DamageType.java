@@ -1,3 +1,5 @@
+package Mix;
+
 public enum DamageType {
     ACID, COLD, FIRE, FORCE, LIGHTNING, NECROTIC, POISIN, PSYCHIC, RADIANT, THUNDER
 }

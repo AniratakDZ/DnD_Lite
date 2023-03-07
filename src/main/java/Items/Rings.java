@@ -1,5 +1,7 @@
 package Items;
 
+import characters.Characters;
+
 public abstract class Rings extends Artifact{
 
 
@@ -11,4 +13,5 @@ public abstract class Rings extends Artifact{
     }
 
 
+    public abstract void useArtifact(Characters characters);
 }

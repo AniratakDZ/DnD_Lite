@@ -34,10 +34,17 @@ public abstract class Characters {
 
     void take(Artifact artifact) {
         inventory.add(artifact);
+        if(artifact.getName() == "RingofProtection")
+        {
+
+            armorClass += 1;
+
+        }
     }
 
     void dropItem(String artifactName) {
         inventory.remove(inventory.getArtifactByName(artifactName));
+
     }
 
     void useArtifact(String artifactName) {
