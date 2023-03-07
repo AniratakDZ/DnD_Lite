@@ -1,6 +1,7 @@
 package Items;
 
-import characters.Characters;
+
+import figures.characters.Characters;
 
 public abstract class Rings extends Artifact{
 
