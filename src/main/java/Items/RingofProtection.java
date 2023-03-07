@@ -2,18 +2,20 @@ package Items;
 
 import figures.characters.Characters;
 
-public class HealingThrowPotion extends ThrowPotion {
+public class RingofProtection extends Rings {
 
 
 
-    public HealingThrowPotion(){
+    public RingofProtection() {
 
-        setName("Wurftrank der Heilung");
+        setName("RingofProtection");
 
     }
 
     @Override
     public void useArtifact(Characters characters) {
+
+
 
     }
 }

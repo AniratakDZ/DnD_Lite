@@ -1,15 +1,11 @@
 package Items;
 
-public abstract class Artifact {
+public abstract class Artifact implements IUseArtifact {
 
     private String name;
     private String art;
 
-
-    public Artifact(){
-
-
-    }
+    private int duration;
 
     public String getName() {
         return name;
@@ -27,6 +23,14 @@ public abstract class Artifact {
 
         this.art = art;
 
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
 }
