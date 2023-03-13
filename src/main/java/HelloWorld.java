@@ -17,14 +17,14 @@ import figures.characters.Wizzard;
  */
 public class HelloWorld {
 
-//    public HelloWorld() {
-//        new Map(10, 10);
-//    }
+    public HelloWorld() {
+        new Map(10, 10);
+    }
 
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
 
     public static void main(String[] args) {
-//		new HelloWorld();
+		new HelloWorld();
 
     }
 }

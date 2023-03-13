@@ -13,6 +13,8 @@ public class CrowsbowLight extends Weapons implements IWeaponBehaviour {
         super.setDamage(Dice.rollDiceInt(1,8));
         super.setWeight(5);
         super.setName("CrowsbowLight");
+        super.setNormalRange(80);
+        super.setLongRange(320);
     }
     @Override
     public void useWeapon() {

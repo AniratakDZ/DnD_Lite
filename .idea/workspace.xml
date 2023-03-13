@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/range/CrowsbowLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Anmerkungen" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Anmerkungen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mix/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mix/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Maps/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/BowAndArrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/range/ShortBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/range/ShortBow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Spells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Spells.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/range/CrowsbowLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/range/CrowsbowLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/range/ShortBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/range/ShortBow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />

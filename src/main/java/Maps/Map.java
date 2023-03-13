@@ -9,6 +9,7 @@ import Maps.MapKachel.WayType;
 import Maps.*;
 
 import java.awt.*;
+import java.util.Random;
 
 public class Map extends JFrame{
     public Map(int width, int height) {

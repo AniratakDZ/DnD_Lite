@@ -4,7 +4,7 @@ import figures.characters.Characters;
 
 public abstract class Spells {
 
-    int castingTime = 1, duration = 0, range = 150, spellPower = 0, areaOfEffect, level;
+    int castingTime = 1, duration = 0, range = 0, spellPower = 0, areaOfEffect, level;
     String name;
 
     abstract void castSpell(Characters character);
