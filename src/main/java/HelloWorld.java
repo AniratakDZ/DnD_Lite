@@ -1,8 +1,4 @@
 import Maps.Map;
-import Spells.BruningHands;
-import Spells.Fireball;
-import Spells.SpellScroll;
-import figures.characters.Wizzard;
 
 /*  Created on 30.01.2023
  *
@@ -24,6 +20,7 @@ public class HelloWorld {
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
 
     public static void main(String[] args) {
+
 		new HelloWorld();
 
     }

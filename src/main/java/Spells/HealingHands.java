@@ -9,10 +9,10 @@ public class HealingHands extends Spells {
     public HealingHands(){
         super.setName("HealingHands");
         super.setLevel(0);
-        super.setCastingTime(1);
+        super.setCastingTime(0);
         super.setDuration(0);
-        super.setRange(15);
-        super.setSpellPower(Dice.rollDiceInt(1,0));
+        super.setRange(0);
+        super.setSpellPower(Dice.rollDiceInt(1,8));
     }
 
     @Override
