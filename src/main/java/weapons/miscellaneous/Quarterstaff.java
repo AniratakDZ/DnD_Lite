@@ -1,13 +1,14 @@
-package weapons.miscellaneous;
+package Weapons.miscellaneous;
 
+import Weapons.Weapons;
 import weapons.IWeaponBehaviour;
-import weapons.Weapons;
+
 
 public class Quarterstaff extends Weapons implements IWeaponBehaviour {
 
     public Quarterstaff(int cost, int damage, int properties, int weight, String name){
 
-        super.setWeapontype(Weapontype.STAFF);
+        super.setWeapontype(Weapons.Weapontype.STAFF);
         super.setCost(cost);
         super.setDamage(damage);
         super.setProperties(properties);

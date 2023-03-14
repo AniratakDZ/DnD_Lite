@@ -1,4 +1,4 @@
-package weapons.offhand;
+package Weapons.offhand;
 
 import Mix.Dice;
 import Spells.Spells;

@@ -1,14 +1,15 @@
-package weapons.range;
+package Weapons.range;
 
 import Mix.Dice;
+import Weapons.Weapons;
 import weapons.IWeaponBehaviour;
-import weapons.Weapons;
+
 
 public class CrowsbowLight extends Weapons implements IWeaponBehaviour {
 
     public CrowsbowLight(){
 
-        super.setWeapontype(Weapontype.TWOHANDED_RANGE);
+        super.setWeapontype(Weapons.Weapontype.TWOHANDED_RANGE);
         super.setCost(25);
         super.setDamage(Dice.rollDiceInt(1,8));
         super.setWeight(5);

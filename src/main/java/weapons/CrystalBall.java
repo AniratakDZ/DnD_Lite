@@ -1,6 +1,6 @@
-package weapons;
+package Weapons;
 
-public class CrystalBall implements IWeaponBehaviour {
+public class CrystalBall implements weapons.IWeaponBehaviour {
     @Override
     public void useWeapon() {
         System.out.println("Kristallkugel macht Kristallkugelsachen");

@@ -1,14 +1,15 @@
-package weapons.onehanded;
+package Weapons.onehanded;
 
 import Mix.Dice;
+import Weapons.Weapons;
 import weapons.IWeaponBehaviour;
-import weapons.Weapons;
+
 
 public class ShortSword extends Weapons implements IWeaponBehaviour {
 
     public ShortSword(){
 
-        super.setWeapontype(Weapontype.ONEHANDED_AXE);
+        super.setWeapontype(Weapons.Weapontype.ONEHANDED_AXE);
         super.setCost(19);
         super.setDamage(Dice.rollDiceInt(1,6));
         super.setWeight(2);
