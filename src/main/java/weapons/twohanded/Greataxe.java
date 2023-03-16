@@ -1,14 +1,15 @@
-package weapons.twohanded;
+package Weapons.twohanded;
 
 import Mix.Dice;
+import Weapons.Weapons;
 import weapons.IWeaponBehaviour;
-import weapons.Weapons;
+
 
 public class Greataxe extends Weapons implements IWeaponBehaviour {
 
     public Greataxe(){
 
-        super.setWeapontype(Weapontype.ONEHANDED_AXE);
+        super.setWeapontype(Weapons.Weapontype.ONEHANDED_AXE);
         super.setCost(30);
         super.setDamage(Dice.rollDiceInt(1,12));
         super.setWeight(7);

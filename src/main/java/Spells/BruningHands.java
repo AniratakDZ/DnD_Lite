@@ -14,7 +14,7 @@ public class BruningHands extends Spells {
         super.setName("BruningHands");
         super.setCastingTime(1);
         super.setDuration(0);
-        super.setRange(15);
+        super.setRange(5);
         super.setSpellPower(Dice.rollDiceInt(3, 6));
     }
 
@@ -40,6 +40,9 @@ public class BruningHands extends Spells {
      */
     @Override
     public void castSpell(Characters target) {
+
+
+        Dice.rollDiceInt(3, 6);
 
     }
 
