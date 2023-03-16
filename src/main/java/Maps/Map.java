@@ -21,7 +21,7 @@ public class Map extends JFrame {
     private ArrayList<Figur> figuren = new ArrayList<>();
     private HashMap myMap = new HashMap<>();
     private FigurMap figurMap;
-    
+
     public Map(int width, int height) {
         // JPanel mainPanel = new JPanel();
         JPanel mapPanel = new JPanel();
@@ -32,7 +32,7 @@ public class Map extends JFrame {
         pane.setBounds(getBounds());
         pane.setBounds(getBounds());
         tmp.setVisible(true);
-        pane.add(mapPanel, 0);  
+        pane.add(mapPanel, 0);
         pane.add(tmp, 0);
 
 
@@ -42,16 +42,15 @@ public class Map extends JFrame {
         layout.setRows(10);
         setLayout(layout);
         // add(mainPanel);
-        for(int x = 0; x < 10; x++) {
+        for (int x = 0; x < 10; x++) {
             for (int y = 0; y < 10; y++) {
                 Position pos = new Position(x, y);
                 MapKachel kachel;
-                WayType type = WayType.values()[((int)((Math.random() * 3)))];
-                if(type == WayType.DOOR){
-                    int doorType = (int)(Math.random() * DoorType.values().length - 1);
+                WayType type = WayType.values()[((int) ((Math.random() * 3)))];
+                if (type == WayType.DOOR) {
+                    int doorType = (int) (Math.random() * DoorType.values().length - 1);
                     kachel = MapDoor.getMapDoor(DoorType.values()[doorType], pos);
-                }
-                else if(type == WayType.WAY)
+                } else if (type == WayType.WAY)
                     kachel = new MapWeg(pos);
                 else
                     kachel = new MapWand(pos);
@@ -66,11 +65,26 @@ public class Map extends JFrame {
 
     }
 
-    public void addFigur(Figur figur, Position position) {}
-    public void addLoot(MapItems loot) {}
-    public void addFigure(Figur figur) {}
-    public void moveFigureToPos(Figur figur, Position pos) {}
-    public void removeFigure(Figur figur) {}
-    public Characters getPlayer(Position pos) { return new Fighter(0,0,0,0,0,0,null,null,null);}
-    public MapItems getEntity(Position pos) { return new MapItems(); }
+    public void addFigur(Figur figur, Position position) {
+    }
+
+    public void addLoot(MapItems loot) {
+    }
+
+    public void addFigure(Figur figur) {
+    }
+
+    public void moveFigureToPos(Figur figur, Position pos) {
+    }
+
+    public void removeFigure(Figur figur) {
+    }
+
+    public Characters getPlayer(Position pos) {
+        return new Fighter(0, 0, 0, 0, 0, 0, null, null, null);
+    }
+
+    public MapItems getEntity(Position pos) {
+        return new MapItems();
+    }
 }
