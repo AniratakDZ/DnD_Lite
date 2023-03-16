@@ -12,7 +12,7 @@ public class MageArmor extends Spells {
         super.setLevel(0);
         super.setCastingTime(1);
         super.setDuration(0);
-        super.setRange(15);
+        super.setRange(0);
         super.setSpellPower(13);
     }
 

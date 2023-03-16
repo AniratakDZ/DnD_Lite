@@ -1,13 +1,14 @@
-package weapons.offhand;
+package Weapons.offhand;
 
+import Weapons.Weapons;
 import weapons.IWeaponBehaviour;
-import weapons.Weapons;
+
 
 public class CrystalBall extends Weapons implements IWeaponBehaviour {
 
     public CrystalBall(int cost, int damage, int properties, int weight, String name) {
 
-        super.setWeapontype(Weapontype.OFFHAND);
+        super.setWeapontype(Weapons.Weapontype.OFFHAND);
         super.setCost(cost);
         super.setDamage(damage);
         super.setProperties(properties);

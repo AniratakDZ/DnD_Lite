@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/range/CrowsbowLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mix/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mix/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/BruningHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/MageArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/RayOfFrost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/BowAndArrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/range/ShortBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/range/ShortBow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maps/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapKachel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapWand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapWeg.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677576532215</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1678717295337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678717295337</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +170,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DungeonMaster.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

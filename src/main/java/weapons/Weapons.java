@@ -1,4 +1,4 @@
-package weapons;
+package Weapons;
 
 public abstract class Weapons {
 
@@ -7,7 +7,7 @@ public abstract class Weapons {
     }
 
     Weapontype weapontype;
-    int cost, damage, properties, weight;
+    int cost, damage, properties, weight, normalRange, longRange;
     String name;
 
     public Weapontype getWeapontype() {
@@ -58,5 +58,19 @@ public abstract class Weapons {
         this.name = name;
     }
 
+    public int getNormalRange() {
+        return normalRange;
+    }
 
+    public void setNormalRange(int normalRange) {
+        this.normalRange = normalRange;
+    }
+
+    public int getLongRange() {
+        return longRange;
+    }
+
+    public void setLongRange(int longRange) {
+        this.longRange = longRange;
+    }
 }
