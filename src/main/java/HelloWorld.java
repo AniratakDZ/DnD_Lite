@@ -52,7 +52,9 @@ public class HelloWorld {
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
 
     public static void main(String[] args) {
+
 		new HelloWorld();
+
 
     }
 }
