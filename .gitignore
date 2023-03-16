@@ -1,7 +1,5 @@
 /target/
 *.class
-src/main/java/Maps/Position.java
-*.class
 target/classes/Items/Artefakt.class
 target/classes/Items/Trank.class
 target/classes/Maps/Map.class
