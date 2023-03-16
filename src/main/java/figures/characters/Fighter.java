@@ -1,12 +1,12 @@
 package figures.characters;
 
-import Armor.Armor;
-import weapons.IWeaponBehaviour;
+import Items.armor.Armor;
+import Items.weapons.Weapons;
 
 public class Fighter extends Characters {
 
     public Fighter(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
-                   IWeaponBehaviour mainhand, IWeaponBehaviour offhand, Armor armor) {
+                   Weapons mainhand, Weapons offhand, Armor armor) {
 
         super.inventory = new Inventory();
         super.setStrengh(strengh);

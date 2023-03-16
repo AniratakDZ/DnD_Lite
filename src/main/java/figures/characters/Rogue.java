@@ -1,14 +1,14 @@
 package figures.characters;
 
-import Armor.Armor;
-import weapons.IWeaponBehaviour;
+import Items.armor.Armor;
+import Items.weapons.Weapons;
 
 public class Rogue extends Characters {
 
     Armor.Armortype armorType = Armor.Armortype.LIGHTARMOR;
 
     public Rogue(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
-                 IWeaponBehaviour mainhand, IWeaponBehaviour offhand, Armor armor) {
+                 Weapons mainhand, Weapons offhand, Armor armor) {
 
         super.inventory = new Inventory();
         setStrengh(strengh);
