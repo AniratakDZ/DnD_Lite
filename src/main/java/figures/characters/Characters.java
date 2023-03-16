@@ -3,11 +3,12 @@ package figures.characters;
 import Armor.Armor;
 import Items.Artifact;
 import Items.IUseArtifact;
+import figures.Figur;
 import weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
 
-public abstract class Characters {
+public abstract class Characters extends Figur{
 
     int strengh, dexterity, vitality, intelligence, wisdom, charisma, level = 1, experience, armorClass,
             maxLife, currentLife;

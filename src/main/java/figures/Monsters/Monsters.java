@@ -1,6 +1,8 @@
 package figures.Monsters;
 
-public abstract class Monsters {
+import figures.Figur;
+
+public abstract class Monsters extends Figur{
 
     int strengh, dexterity, constitution, intelligence, wisdom, charisma, level, experience, armorClass,
             maxLife, currentLife, speed;

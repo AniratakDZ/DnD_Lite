@@ -5,10 +5,11 @@ import java.awt.*;
 
 
 public abstract class MapKachel extends JPanel {
-    Position m_pos;
+    private Position m_pos;
 
     public MapKachel(Position pos) {
         m_pos = pos;
+        setOpaque(false);
     }
     
     public Position getPos() {
@@ -31,5 +32,8 @@ public abstract class MapKachel extends JPanel {
     public void paint(Graphics g) {
         super.paint(g);
         lineWidth =  getWidth() / 12;
+        // if(m_player != null) {
+
+        // }
     }
 }
