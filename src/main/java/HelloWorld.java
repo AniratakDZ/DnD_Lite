@@ -27,26 +27,17 @@ public class HelloWorld {
 
     public HelloWorld() {
         
-        JFrame frame = new JFrame();
+        // JFrame frame = map;
         Map map = new Map(10, 10);
-        frame.setBounds(100, 100, 500, 500);
-        map.setBounds(frame.getBounds());
-        JLayeredPane pane = new JLayeredPane();
-        pane.setBounds(frame.getBounds());
-        pane.add(map, 0);
-        JPanel panel = new JPanel();
-        panel.setBackground(Color.black);
-        panel.setBounds(frame.getBounds());
-        MapKachel tmp = MapDoor.getMapDoor(DoorType.DOOR_OPEN, new Position(0, 0));
-        tmp.setBounds(frame.getBounds());
-        pane.add(tmp, 0);//MapDoor.getMapDoor(DoorType.DOOR_OPEN, new Position(0, 0)), 1);
+        // frame.setBounds(100, 100, 500, 500);
+        //MapDoor.getMapDoor(DoorType.DOOR_OPEN, new Position(0, 0)), 1);
         // frame.setContentPane(map);
         // GridLayout playerLayout = new GridLayout(10,10);
         // frame.setLayout(null);
-        frame.setContentPane(pane);
+        // frame.setContentPane(map);
         
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+        map.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        map.setVisible(true);
     }
 
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
