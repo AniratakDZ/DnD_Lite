@@ -1,7 +1,7 @@
-package Weapons.onehanded;
+package weapons.onehanded;
 
 import Mix.Dice;
-import Weapons.Weapons;
+import weapons.Weapons;
 import weapons.IWeaponBehaviour;
 
 

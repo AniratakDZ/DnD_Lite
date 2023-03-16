@@ -1,6 +1,6 @@
-package Weapons.miscellaneous;
+package weapons.miscellaneous;
 
-import Weapons.Weapons;
+import weapons.Weapons;
 import weapons.IWeaponBehaviour;
 
 

@@ -1,6 +1,6 @@
-package Weapons.offhand;
+package weapons.offhand;
 
-import Weapons.Weapons;
+import weapons.Weapons;
 import weapons.IWeaponBehaviour;
 
 

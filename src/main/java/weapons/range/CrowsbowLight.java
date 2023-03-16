@@ -1,7 +1,7 @@
-package Weapons.range;
+package weapons.range;
 
 import Mix.Dice;
-import Weapons.Weapons;
+import weapons.Weapons;
 import weapons.IWeaponBehaviour;
 
 

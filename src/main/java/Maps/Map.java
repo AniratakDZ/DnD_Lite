@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 import Maps.MapDoor.DoorType;
 import Maps.MapKachel.WayType;
 import figures.Figur;
+import figures.MapItems;
 import Maps.*;
 
 import java.awt.*;
@@ -49,4 +50,10 @@ public class Map extends JPanel {
     public void generateMap() {
 
     }
+
+    public void addFigur(Figur figur, Position position) {}
+    public void addLoot(MapItems loot) {}
+    public void addFigure(Figur figur) {}
+    public void moveFigureToPos(Figur figur, Position pos) {}
+    public void removeFigure(Figur figur) {}
 }

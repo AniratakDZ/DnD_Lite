@@ -11,4 +11,5 @@ public class FigurMap {
     public void addLoot(MapItems loot) {}
     public void addFigure(Figur figur) {}
     public void moveFigureToPos(Figur figur, Position pos) {}
+    public void removeFigure(Figur figur) {}
 }
