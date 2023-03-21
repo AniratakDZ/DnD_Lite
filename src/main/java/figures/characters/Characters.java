@@ -27,7 +27,7 @@ public abstract class Characters extends Figur{
 
     abstract void move();
 
-    public void take(Artifact item) {
+    public void take(ChestItems item) {
         inventory.add(item);
     }
 
