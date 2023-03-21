@@ -1,6 +1,8 @@
 package Items.armor;
 
-public abstract class Armor {
+import Items.ChestItems;
+
+public abstract class Armor extends ChestItems {
 
     public enum Armortype {
         LIGHTARMOR,
