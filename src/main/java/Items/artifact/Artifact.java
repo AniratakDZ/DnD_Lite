@@ -1,8 +1,9 @@
 package Items.artifact;
 
+import Items.ChestItems;
 import Items.IUseItem;
 
-public abstract class Artifact implements IUseItem {
+public abstract class Artifact extends ChestItems implements IUseItem {
 
     private String name;
     private String art;

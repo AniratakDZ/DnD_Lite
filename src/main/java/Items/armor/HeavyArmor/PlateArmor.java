@@ -14,7 +14,7 @@ public class PlateArmor extends Armor implements IUseItem {
         super.setStrength(15);
         super.setStealthDisadvantage(true);
         super.setWeight(65);
-
+        super.setName("Chain Main");
     }
 
     @Override

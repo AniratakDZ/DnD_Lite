@@ -14,6 +14,7 @@ public class ChainMail extends Armor implements IUseItem {
         super.setStrength(13);
         super.setStealthDisadvantage(true);
         super.setWeight(55);
+        super.setName("Chain Mail");
 
     }
 

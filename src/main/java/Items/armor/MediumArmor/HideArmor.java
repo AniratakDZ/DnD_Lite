@@ -14,7 +14,7 @@ public class HideArmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(false);
         super.setWeight(12);
-
+        super.setName("Hide Armor");
     }
 
     @Override

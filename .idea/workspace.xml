@@ -13,8 +13,23 @@
       <change afterPath="$PROJECT_DIR$/test1234.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Maps/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/ChainMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/ChainMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/PlateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/PlateArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/RingMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/RingMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/SplintArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/SplintArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/LeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/LeatherArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/PaddedArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/PaddedArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/StuddedLeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/StuddedLeatherArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/BreastplateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/BreastplateArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ChainShirtArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ChainShirtArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HalfPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HalfPlate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HideArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HideArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ScaleMailarmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ScaleMailarmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/Shield/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/Shield/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Chest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Chest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +90,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="figures" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspaces\Java\DnD\rsc" />
       <recent name="C:\Workspaces\Java\DnD_Lite\documents\school_docs" />
@@ -110,7 +128,6 @@
       <updated>1675070564383</updated>
       <workItem from="1675070565690" duration="295000" />
       <workItem from="1675070901646" duration="489000" />
-      <workItem from="1679382485904" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675071277980</created>
@@ -175,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678717295337</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1678961844499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961844499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

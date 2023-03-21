@@ -14,7 +14,7 @@ public class StuddedLeatherArmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(false);
         super.setWeight(10);
-
+        super.setName("Studded Leather Armor");
     }
 
     @Override

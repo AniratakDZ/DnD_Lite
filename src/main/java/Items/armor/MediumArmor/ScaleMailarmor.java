@@ -14,7 +14,7 @@ public class ScaleMailarmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(false);
         super.setWeight(45);
-
+        super.setName("Scale Mailarmor");
     }
 
     @Override

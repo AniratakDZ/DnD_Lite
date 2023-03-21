@@ -1,6 +1,8 @@
 package Items.weapons;
 
-public abstract class Weapons {
+import Items.ChestItems;
+
+public abstract class Weapons extends ChestItems {
 
     public enum Weapontype {
         ONEHANDED_AXE, ONEHANDED_SWORD, TWOHANDED_AXE, TWOHANDED_SWORD, OFFHAND, STAFF, ONEHANDED_RANGE, TWOHANDED_RANGE, UNARMED

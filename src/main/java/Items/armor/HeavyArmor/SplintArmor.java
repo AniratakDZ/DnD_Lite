@@ -14,7 +14,7 @@ public class SplintArmor extends Armor implements IUseItem {
         super.setStrength(15);
         super.setStealthDisadvantage(true);
         super.setWeight(60);
-
+        super.setName("Splint Armor");
     }
 
     @Override
