@@ -5,51 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/menuPanel/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1234.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/HeavyArmor/ChainMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/ChainMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/HeavyArmor/PlateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/PlateArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/HeavyArmor/RingMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/RingMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/HeavyArmor/SplintArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/SplintArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/LightArmor/LeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/LeatherArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/LightArmor/PaddedArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/PaddedArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/LightArmor/StuddedLeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/StuddedLeatherArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/MediumArmor/BreastplateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/BreastplateArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/MediumArmor/ChainShirtArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ChainShirtArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/MediumArmor/HalfPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HalfPlate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/MediumArmor/HideArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HideArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/MediumArmor/ScaleMailarmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ScaleMailarmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Armor/Shield/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/Shield/Shield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Artifact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/Artifact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/HealingPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/HealingPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/HealingThrowPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/HealingThrowPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/IUseArtifact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/IUseItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/InvisiblePotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/InvisiblePotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofEvasion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/RingofEvasion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofProtection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/RingofProtection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/RingofResistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/RingofResistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Rings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/Rings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/ThrowPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/artifact/ThrowPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Rogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/characters/Wizzard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/CrystalBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/CrystalBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/IWeaponBehaviour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/Weapons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/miscellaneous/Quarterstaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/miscellaneous/Quarterstaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/CrystalBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/offhand/CrystalBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/offhand/Spellbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/offhand/Spellbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/onehanded/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/Handaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/onehanded/Handaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/onehanded/ShortSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/onehanded/ShortSword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/range/CrowsbowLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/range/CrowsbowLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/range/ShortBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/range/ShortBow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greataxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/twohanded/Greataxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/twohanded/Greatsword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/weapons/twohanded/Greatsword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Maps/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +44,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2L2YHijV9hlvvphBoysifWitcrN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,13 +59,28 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspaces/Java/DnD/rsc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.6586207",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspaces\Java\DnD\rsc" />
       <recent name="C:\Workspaces\Java\DnD_Lite\documents\school_docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspaces\Java\DnD\rsc" />
     </key>
   </component>
   <component name="RunManager">
@@ -123,6 +110,7 @@
       <updated>1675070564383</updated>
       <workItem from="1675070565690" duration="295000" />
       <workItem from="1675070901646" duration="489000" />
+      <workItem from="1679382485904" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675071277980</created>
