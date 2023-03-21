@@ -1,5 +1,6 @@
 package figures.characters;
 
+import Items.ChestItems;
 import Items.armor.Armor;
 import Items.artifact.Artifact;
 import Items.IUseItem;
@@ -26,8 +27,8 @@ public abstract class Characters extends Figur{
 
     abstract void move();
 
-    void take(Artifact artifact) {
-        inventory.add(artifact);
+    public void take(Artifact item) {
+        inventory.add(item);
     }
 
     void dropItem(String artifactName) {
@@ -40,13 +41,13 @@ public abstract class Characters extends Figur{
     }
 
     // ----------------------------------- Inner Class Inventory -----------------------------------
-    public class Inventory extends ArrayList<Artifact> {
+    public class Inventory extends ArrayList<ChestItems> {
 
-        public Artifact getArtifactByName(String itemName) {
+        public ChestItems getArtifactByName(String itemName) {
 
             int tmp = 0;
 
-            for (Artifact ar : this) {
+            for (ChestItems ar : this) {
                 if (ar.getName().equals(itemName)) {
                     return this.get(tmp);
                 }
