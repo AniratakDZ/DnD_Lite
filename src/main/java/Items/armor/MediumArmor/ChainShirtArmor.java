@@ -14,7 +14,7 @@ public class ChainShirtArmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(true);
         super.setWeight(20);
-
+        super.setName("Chain Shirt Armor");
     }
 
     @Override

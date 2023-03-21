@@ -14,7 +14,7 @@ public class PaddedArmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(true);
         super.setWeight(8);
-
+        super.setName("Padded Armor");
     }
 
     @Override

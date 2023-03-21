@@ -14,7 +14,7 @@ public class Shield extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(false);
         super.setWeight(6);
-
+        super.setName("Shield");
     }
 
     @Override
