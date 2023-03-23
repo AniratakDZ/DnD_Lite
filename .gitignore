@@ -10,3 +10,4 @@ target/classes/Items/Artefakt.class
 target/classes/Items/Trank.class
 *.class
 target/classes/Items/Artefakt.class
+/test1234.iml
