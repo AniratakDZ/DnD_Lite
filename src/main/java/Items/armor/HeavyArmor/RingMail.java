@@ -14,7 +14,7 @@ public class RingMail extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(true);
         super.setWeight(40);
-
+        super.setName("Ring Mail");
     }
 
     @Override

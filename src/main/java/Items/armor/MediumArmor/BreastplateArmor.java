@@ -14,7 +14,7 @@ public class BreastplateArmor extends Armor implements IUseItem {
         super.setStrength(0);
         super.setStealthDisadvantage(false);
         super.setWeight(20);
-
+        super.setName("Breast Plate");
     }
 
     @Override
