@@ -5,14 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc72aa3-cbd6-4d8e-9d10-9743e9bd1e0b" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/menuPanel/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1234.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DungeonMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/HealingHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Maps/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapKachel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapWand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Maps/MapWeg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Maps/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/ChainMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/ChainMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/PlateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/PlateArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/RingMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/RingMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/SplintArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/HeavyArmor/SplintArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/LeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/LeatherArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/PaddedArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/PaddedArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/StuddedLeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/LightArmor/StuddedLeatherArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/BreastplateArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/BreastplateArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ChainShirtArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ChainShirtArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HalfPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HalfPlate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HideArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/HideArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ScaleMailarmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/MediumArmor/ScaleMailarmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/armor/Shield/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/armor/Shield/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/figures/Chest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/figures/Chest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +59,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2L2YHijV9hlvvphBoysifWitcrN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,13 +74,31 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspaces/Java/DnD/rsc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.6586207",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="figures" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspaces\Java\DnD\rsc" />
       <recent name="C:\Workspaces\Java\DnD_Lite\documents\school_docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspaces\Java\DnD\rsc" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678717295337</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1678961844499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961844499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,17 +219,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DungeonMaster.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

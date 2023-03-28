@@ -1,21 +1,24 @@
-import Items.Artifact;
 import Maps.Map;
-import figures.Monsters.Monsters;
-
-import java.util.ArrayList;
+import Maps.Position;
+import figures.Chest;
 
 public class DungeonMaster {
 
-    Map map;
-    ArrayList<Monsters> monsterList = new ArrayList<>();
-    ArrayList<Artifact> artifactList = new ArrayList<>();
+    static Map map;
 
-    public static void addMonster(){
-
-    }
-    public static void addChest(){
+    public static void addMonster() {
 
     }
 
+    public static void addChest(Position position, Chest chest) {
 
+    }
+
+    public static Map getMap() {
+        return map;
+    }
+
+    public static void setMap(Map map) {
+        DungeonMaster.map = map;
+    }
 }

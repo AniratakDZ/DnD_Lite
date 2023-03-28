@@ -1,10 +1,11 @@
 package figures.characters;
 
-import Armor.Armor;
-import Items.Artifact;
-import Items.IUseArtifact;
+import Items.ChestItems;
+import Items.armor.Armor;
+import Items.artifact.Artifact;
+import Items.IUseItem;
+import Items.weapons.Weapons;
 import figures.Figur;
-import weapons.IWeaponBehaviour;
 
 import java.util.ArrayList;
 
@@ -14,9 +15,9 @@ public abstract class Characters extends Figur{
             maxLife, currentLife;
     String name;
     public boolean invisible = false;
-    IWeaponBehaviour mainhand;
-    IWeaponBehaviour offhand;
-    IUseArtifact useArtifact;
+    Weapons mainhand;
+    Weapons offhand;
+    IUseItem useArtifact;
     Armor armor;
     Inventory inventory;
 
@@ -26,8 +27,8 @@ public abstract class Characters extends Figur{
 
     abstract void move();
 
-    void take(Artifact artifact) {
-        inventory.add(artifact);
+    public void take(ChestItems item) {
+        inventory.add(item);
     }
 
     void dropItem(String artifactName) {
@@ -39,55 +40,14 @@ public abstract class Characters extends Figur{
         useArtifact.useArtifact(this);
     }
 
-//    void addExperience(int experience) {
-//
-//        this.experience = +experience;
-//
-//        if (this.experience >= 300 && this.experience < 900) {
-//            setLevel(2);
-//        } else if (this.experience >= 900 && this.experience < 2700) {
-//            setLevel(3);
-//        } else if (this.experience >= 6500 && this.experience < 14000) {
-//            setLevel(4);
-//        } else if (this.experience >= 14000 && this.experience < 23000) {
-//            setLevel(5);
-//        } else if (this.experience >= 23000 && this.experience < 34000) {
-//            setLevel(6);
-//        } else if (this.experience >= 34000 && this.experience < 48000) {
-//            setLevel(7);
-//        } else if (this.experience >= 48000 && this.experience < 64000) {
-//            setLevel(8);
-//        } else if (this.experience >= 64000 && this.experience < 85000) {
-//            setLevel(9);
-//        } else if (this.experience >= 85000 && this.experience < 100000) {
-//            setLevel(10);
-//        } else if (this.experience >= 100000 && this.experience < 120000) {
-//            setLevel(11);
-//        } else if (this.experience >= 120000 && this.experience < 140000) {
-//            setLevel(12);
-//        } else if (this.experience >= 140000 && this.experience < 165000) {
-//            setLevel(13);
-//        } else if (this.experience >= 165000 && this.experience < 190000) {
-//            setLevel(14);
-//        } else if (this.experience >= 195000 && this.experience < 225000) {
-//            setLevel(15);
-//        } else if (this.experience >= 225000 && this.experience < 265000) {
-//            setLevel(16);
-//        }else if (this.experience >= 265000 && this.experience < 305000) {
-//            setLevel(17);
-//        }else if (this.experience >= 305000 && this.experience < 355000) {
-//            setLevel(18);
-//        }
-//    }
-
     // ----------------------------------- Inner Class Inventory -----------------------------------
-    public class Inventory extends ArrayList<Artifact> {
+    public class Inventory extends ArrayList<ChestItems> {
 
-        public Artifact getArtifactByName(String itemName) {
+        public ChestItems getArtifactByName(String itemName) {
 
             int tmp = 0;
 
-            for (Artifact ar : this) {
+            for (ChestItems ar : this) {
                 if (ar.getName().equals(itemName)) {
                     return this.get(tmp);
                 }
@@ -161,19 +121,19 @@ public abstract class Characters extends Figur{
         this.maxLife = maxLife;
     }
 
-    public IWeaponBehaviour getMainhand() {
+    public Weapons getMainhand() {
         return mainhand;
     }
 
-    public void setMainhand(IWeaponBehaviour mainhand) {
+    public void setMainhand(Weapons mainhand) {
         this.mainhand = mainhand;
     }
 
-    public IWeaponBehaviour getOffhand() {
+    public Weapons getOffhand() {
         return offhand;
     }
 
-    public void setOffhand(IWeaponBehaviour offhand) {
+    public void setOffhand(Weapons offhand) {
         this.offhand = offhand;
     }
 

@@ -1,10 +1,11 @@
 package figures.characters;
 
-import weapons.IWeaponBehaviour;
+import Items.weapons.Weapons;
 
 public class Wizzard extends Characters {
 
-    public Wizzard(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma, IWeaponBehaviour mainhand, IWeaponBehaviour offhand) {
+    public Wizzard(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
+                   Weapons mainhand, Weapons offhand) {
 
         super.inventory = new Inventory();
         setStrengh(strengh);

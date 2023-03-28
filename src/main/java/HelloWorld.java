@@ -1,7 +1,12 @@
 import javax.swing.*;
 
 import java.awt.*;
+import java.util.ArrayList;
 
+import Items.IUseItem;
+import Items.armor.HeavyArmor.ChainMail;
+import Items.artifact.InvisiblePotion;
+import Items.weapons.onehanded.ShortSword;
 import Maps.Map;
 import Maps.MapDoor;
 import Maps.MapKachel;
@@ -10,6 +15,7 @@ import Maps.MapDoor.DoorType;
 import Spells.BruningHands;
 import Spells.Fireball;
 import Spells.SpellScroll;
+import figures.characters.Fighter;
 import figures.Figur;
 import figures.characters.Wizzard;
 import java.awt.event.*;
@@ -100,6 +106,7 @@ public class HelloWorld {
 //    static Wizzard wizzard = new Wizzard(1, 1, 1, 1, 1, 1, null, null);
 
     public static void main(String[] args) {
+
 		new HelloWorld();
 
     }
