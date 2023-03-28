@@ -10,6 +10,8 @@ public abstract class MapKachel extends JPanel {
     public MapKachel(Position pos) {
         m_pos = pos;
         setOpaque(false);
+        GridLayout layout = new GridLayout();
+        setLayout(layout);
     }
     
     public Position getPos() {
