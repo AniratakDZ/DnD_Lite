@@ -6,6 +6,7 @@ import Maps.MapKachel;
 import Maps.Position;
 
 import java.awt.*;
+import java.io.Console;
 
 public class Figur extends MapItems{
     private Color m_color = null;
@@ -16,6 +17,7 @@ public class Figur extends MapItems{
 
     public Figur(Color color) {
         m_color = color;
+        repaint();
     }
 
     public void setColor(Color color) {
@@ -29,5 +31,6 @@ public class Figur extends MapItems{
         g.fillOval(0, 0, getHeight(), getWidth());
         g.setColor(Color.black);
         g.drawOval(0, 0, getHeight(), getWidth());
+        System.out.println("Paint");
     }
 }
