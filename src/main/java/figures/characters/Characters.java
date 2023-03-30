@@ -5,6 +5,7 @@ import Items.armor.Armor;
 import Items.artifact.Artifact;
 import Items.IUseItem;
 import Items.weapons.Weapons;
+import Mix.Dice;
 import figures.Figur;
 
 import java.util.ArrayList;
@@ -23,7 +24,18 @@ public abstract class Characters extends Figur{
 
     }
 
-    public abstract void attack(Characters character);
+    public  void attack(Characters character)
+    {
+
+        int attack = Dice.rollDiceInt(1, 20 ) + ((getDexterity()-10) / 2);
+        if (attack > character.getArmorClass() || attack == character.getArmorClass())
+        {
+
+            getMainhand().useArtifact(character);
+
+        }
+
+    }
 
     public abstract int defend();
 

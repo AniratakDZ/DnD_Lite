@@ -27,13 +27,7 @@ public class Fighter extends Characters {
     @Override
     public void attack(Characters character) {
 
-        int attack = Dice.rollDiceInt(1, 20 ) + ((getDexterity()-10) / 2);
-        if (attack > character.getArmorClass() || attack == character.getArmorClass())
-        {
-
-            getMainhand().useArtifact(character);
-
-        }
+        super.attack(character);
 
     }
 

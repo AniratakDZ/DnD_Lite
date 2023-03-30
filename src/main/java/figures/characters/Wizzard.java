@@ -23,6 +23,8 @@ public class Wizzard extends Characters {
     @Override
     public void attack(Characters character) {
 
+        super.attack(character);
+
     }
 
     @Override
