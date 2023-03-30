@@ -14,7 +14,6 @@ public class Cultist extends Monsters{
         super.setArmorClass(12);
         super.setMaxLife(9);
         super.setCurrentLife(9);
-        super.setSpeed(30);
 
     }
 
