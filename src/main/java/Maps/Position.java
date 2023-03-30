@@ -4,7 +4,7 @@ public class Position extends Object {
     private int m_x = 0;
     private int m_y = 0;
 
-    public Position(int x, int y) {
+    public Position(int y, int x) {
         m_x = x;
         m_y = y;
     }

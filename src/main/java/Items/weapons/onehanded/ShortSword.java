@@ -4,6 +4,7 @@ import Items.IUseItem;
 import Mix.Dice;
 import Items.weapons.Weapons;
 import figures.characters.Characters;
+import java.awt.*;
 
 
 public class ShortSword extends Weapons implements IUseItem {
@@ -19,6 +20,10 @@ public class ShortSword extends Weapons implements IUseItem {
 
     @Override
     public void useArtifact(Characters characters) {
+
+    }
+    @Override
+    public void paint(Graphics g) {
 
     }
 }

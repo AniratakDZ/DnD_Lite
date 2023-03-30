@@ -1,18 +1,11 @@
 package figures;
-
-import javax.swing.JPanel;
-
-import Maps.MapKachel;
-import Maps.Position;
-
 import java.awt.*;
-import java.io.Console;
 
 public class Figur extends MapItems{
     private Color m_color = null;
 
     public Figur() {
-
+        repaint();
     }
 
     public Figur(Color color) {
@@ -28,9 +21,9 @@ public class Figur extends MapItems{
     public void paint(Graphics g) {
         super.paint(g);
         g.setColor(m_color);
-        g.fillOval(0, 0, getHeight(), getWidth());
+        g.fillOval(0 + 5, 0 + 5, getWidth() - 10, getHeight() - 10);
         g.setColor(Color.black);
-        g.drawOval(0, 0, getHeight(), getWidth());
+        g.drawOval(0 + 5, 0 + 5, getWidth() - 10, getHeight() - 10);
         System.out.println("Paint");
     }
 }

@@ -1,9 +1,8 @@
 package Items.weapons;
 
-import Items.IUseItem;
 import figures.characters.Characters;
 
-public class CrystalBall extends Weapons implements IUseItem {
+public class CrystalBall extends Weapons {
 
     @Override
     public void useArtifact(Characters characters) {

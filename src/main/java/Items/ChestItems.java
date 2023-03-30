@@ -1,6 +1,7 @@
 package Items;
+import javax.swing.*;
 
-public abstract class ChestItems implements IUseItem {
+public abstract class ChestItems extends JPanel implements IUseItem {
 
 
     private String name;

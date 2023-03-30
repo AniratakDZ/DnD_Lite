@@ -1,12 +1,11 @@
 package Items.weapons.twohanded;
 
-import Items.IUseItem;
 import Mix.Dice;
 import Items.weapons.Weapons;
 import figures.characters.Characters;
 
 
-public class Greatsword extends Weapons implements IUseItem {
+public class Greatsword extends Weapons {
 
     public Greatsword(){
 

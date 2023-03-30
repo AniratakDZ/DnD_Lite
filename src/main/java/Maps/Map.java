@@ -1,8 +1,5 @@
 package Maps;
 
-import javax.swing.GroupLayout;
-import javax.swing.JFrame;
-import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 
 import Maps.MapDoor.DoorType;
@@ -10,27 +7,15 @@ import Maps.MapKachel.WayType;
 import figures.Figur;
 import figures.MapItems;
 import figures.characters.Characters;
-import figures.characters.Fighter;
-import Maps.*;
 
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Map extends JPanel {
     private ArrayList<Figur> figuren = new ArrayList<>();
-    private HashMap<Position, MapKachel> myMap = new HashMap<Position, MapKachel>();
-    private MapKachel m_kachel;
+    private ArrayList<MapKachel> m_list = new ArrayList<>();
     
     public Map(int width, int height) {
-        // JPanel mainPanel = new JPanel();
-        MapKachel tmp = MapDoor.getMapDoor(DoorType.DOOR_OPEN, new Position(0, 0));
-
-        // mapPanel.setBounds(getBounds());
-        // tmp.setVisible(true);
-        // mapPanel.setVisible(true);
-
-
         GridLayout layout = new GridLayout();
         layout.setColumns(width);
         layout.setRows(height);
@@ -49,12 +34,12 @@ public class Map extends JPanel {
                 else
                     kachel = new MapWand(pos);
                 // JLayeredPane pane = new JLayeredPane();
-                JPanel tmp2 = new JPanel();
-                tmp2.setBackground(Color.green);
-                JPanel tmp3 = new JPanel();
-                tmp3.setBackground(Color.red);
-                JPanel tmp4 = new JPanel();
-                tmp4.setBackground(Color.yellow);
+                // JPanel tmp2 = new JPanel();
+                // tmp2.setBackground(Color.green);
+                // JPanel tmp3 = new JPanel();
+                // tmp3.setBackground(Color.red);
+                // JPanel tmp4 = new JPanel();
+                // tmp4.setBackground(Color.yellow);
 
                 // // tmp.setVisible(true);
                 // pane.add(tmp2,0);
@@ -64,9 +49,10 @@ public class Map extends JPanel {
                 // tmp2.setBounds(kachel.getBounds());
                 // add(pane);
                 //System.out.println("x: " + x + "\ty: " + y);
-                m_kachel = kachel;
+
+                // m_kachel.add(tmp2);
+                m_list.add(kachel);
                 add(kachel);
-                myMap.put(new Position(x,y), kachel);
             }
         }
         setVisible(true);
@@ -77,48 +63,83 @@ public class Map extends JPanel {
     }
 
     public void addFigur(Figur figur, Position position) {
-        System.out.println("////////////////////////////////");
-        Position pos = null;
-        for(Position tmp : myMap.keySet()) {
-            if(position.equals(tmp)) {
-                System.out.println("x: " + tmp.getX() + "\ty: " + tmp.getY() + "\t" + myMap.containsKey(tmp));
-                pos = tmp;
+        // System.out.println("////////////////////////////////");
+        // MapKachel kachel = getMapKachel(position);
+        // if(kachel != null)
+        //     kachel.add(figur);  
+        // // kachel.isAncestorOf(null);
+        // // getMapKachel(position).repaint();
+
+        // repaint();
+        // kachel.repaint();
+        // figur.repaint();
+        getMapKachel(position).add(figur);
+        getMapKachel(position).repaint();
+        figur.repaint();
+        repaint();
+    }
+
+    public void addLoot(MapItems loot, Position position) {
+        MapKachel kachel = getMapKachel(position);
+        if(kachel != null)
+            kachel.add(loot); 
+    }
+    // public void addFigure(Figur figur, Position pos) {
+
+    // }
+    public void moveFigureToPos(Figur figur, Position pos) {
+        for(MapKachel tmp : m_list) {
+            if(tmp.isAncestorOf(figur)) {
+                System.out.println("x: " + tmp.getPos().getX() + "\ty: " + tmp.getPos().getY());
+                tmp.remove(figur);
+                tmp.repaint();
                 break;
             }
         }
-        if(pos == null)
-            return;
-        System.out.println("x: " + position.getX() + "\ty: " + position.getY() + "Map Size: " + myMap.size() + " :: " + myMap.containsKey(pos));
-        System.out.println("Test: " + myMap.get(pos));// == null ? "null" : "gefunden");
-        JPanel panel = new JPanel();
-        panel.setBackground(Color.green);
-        m_kachel.add(panel);
-        m_kachel.repaint();
-        panel.repaint();
-
-        JPanel tmp2 = new JPanel();
-        tmp2.setBackground(Color.green);
-        // myMap.get(pos)
+        getMapKachel(pos).add(figur);
+        getMapKachel(pos).repaint();
+        figur.repaint();
         repaint();
-        ((MapKachel)(this.getComponent(pos.getY()*10 + pos.getX()))).add(tmp2);
-        repaint();
-    }
-    public void addLoot(MapItems loot, Position pos) {
-
-    }
-    public void addFigure(Figur figur, Position pos) {
-
-    }
-    public void moveFigureToPos(Figur figur, Position pos) {
-
     }
     public void removeFigure(Figur figur) {
 
+        for(MapKachel tmp : m_list) {
+            if(tmp.isAncestorOf(figur)) {
+                System.out.println("x: " + tmp.getPos().getX() + "\ty: " + tmp.getPos().getY());
+                tmp.remove(figur);
+                tmp.repaint();
+                break;
+            }
+        }
     }
     public Characters getPlayer(Position pos) { 
         return null;
     }
     public MapItems getEntity(Position pos) {
         return null;    
+    }
+
+    // @Override
+    // public void repaint() {
+    //     super.repaint();
+    //     for(Component c : getComponents())
+    //         c.repaint();
+    // }
+
+    private MapKachel getMapKachel(Position pos) {
+        for(Component tmp: getComponents())
+            if(((MapKachel)tmp).getPos().equals(pos)) {
+                return (MapKachel)tmp;
+            }
+        return null;
+    }
+    public void setKachel(MapKachel kachel, Position pos) {
+        // lm_list. getMapKachel(pos) = kachel;
+        //m_list.set(m_list.indexOf(getMapKachel(pos)), kachel);
+        for(int i = 0; i < getComponentCount(); i++)
+            if(((MapKachel)getComponent(i)).getPos().equals(pos)) {
+                remove(i);
+                add(kachel, i);
+            }
     }
 }
