@@ -14,7 +14,6 @@ public class Goblin extends Monsters{
         super.setArmorClass(15);
         super.setMaxLife(7);
         super.setCurrentLife(7);
-        super.setSpeed(30);
 
     }
 

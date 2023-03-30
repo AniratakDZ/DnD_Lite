@@ -14,7 +14,6 @@ public class Skeleton extends Monsters{
         super.setArmorClass(13);
         super.setMaxLife(13);
         super.setCurrentLife(13);
-        super.setSpeed(30);
 
     }
 

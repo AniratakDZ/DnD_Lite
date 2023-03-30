@@ -16,9 +16,8 @@ import Spells.BruningHands;
 import Spells.Fireball;
 import Spells.SpellScroll;
 import figures.characters.Fighter;
-import figures.Figur;
 import figures.characters.Wizzard;
-import java.awt.event.*;
+import figures.*;
 
 /*  Created on 30.01.2023
  *
@@ -36,7 +35,7 @@ public class HelloWorld {
     public HelloWorld() {
         
         JFrame frame = new JFrame();
-        
+
         Map map = new Map(10, 10);
         frame.setBounds(100, 100, 500, 500);
         // map.setBounds(0,0,500,500);
@@ -51,7 +50,7 @@ public class HelloWorld {
         // frame.setLayout(null);
 
         frame.setContentPane(map);
-        
+
         // MapKachel tmp = MapDoor.getMapDoor(DoorType.DOOR_OPEN, new Position(0, 0));
 
         // JLayeredPane pane = new JLayeredPane();
@@ -64,7 +63,7 @@ public class HelloWorld {
         // panel.add(pane);
         // panel.setVisible(true);
         // frame.setContentPane(panel);
-        
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         map.addFigur(new Figur(Color.green), new Position(5,5));
@@ -78,7 +77,7 @@ public class HelloWorld {
         //     @Override
         //     public void componentResized(ComponentEvent e) {
         //         Dimension newSize = e.getComponent().getSize();
-                
+
         //         pane.setPreferredSize(newSize);
         //         for(Component c : pane.getComponents())
         //             c.setSize(newSize);

@@ -5,8 +5,9 @@ import Items.weapons.Weapons;
 public class Wizzard extends Characters {
 
     public Wizzard(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
-                   Weapons mainhand, Weapons offhand) {
+                   Weapons mainhand, Weapons offhand, int armorclass) {
 
+        super(armorclass);
         super.inventory = new Inventory();
         setStrengh(strengh);
         setDexterity(dexterity);
@@ -19,13 +20,17 @@ public class Wizzard extends Characters {
         setOffhand(offhand);
     }
 
-//    @Override
-//    public void attack() {
-//
-//    }
+    @Override
+    public void attack(Characters character) {
+
+        super.attack(character);
+
+    }
 
     @Override
-    public void defend() {
+    public int defend() {
+
+        return getArmorClass();
 
     }
 

@@ -8,8 +8,9 @@ public class Rogue extends Characters {
     Armor.Armortype armorType = Armor.Armortype.LIGHTARMOR;
 
     public Rogue(int strengh, int dexterity, int vitality, int intelligence, int wisdom, int charisma,
-                 Weapons mainhand, Weapons offhand, Armor armor) {
+                 Weapons mainhand, Weapons offhand, Armor armor, int armorclass) {
 
+        super(armorclass);
         super.inventory = new Inventory();
         setStrengh(strengh);
         setDexterity(dexterity);
@@ -23,13 +24,17 @@ public class Rogue extends Characters {
         setArmor(armor);
     }
 
-//    @Override
-//    public void attack() {
-//
-//    }
+    @Override
+    public void attack(Characters character) {
+
+        super.attack(character);
+
+    }
 
     @Override
-    public void defend() {
+    public int defend() {
+
+        return getArmorClass();
 
     }
 
